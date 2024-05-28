@@ -1,0 +1,557 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+ span.dashicons.custom-toggle-dates.rotator
+ {
+    -webkit-transform: rotateX( 180deg );
+    -moz-transform: rotateX( 180deg );
+    -o-transform: rotateX( 180deg );
+    transform: rotateX( 180deg );
+}
+.wpdd-note {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    font-size: 13px;
+    color: #B4B9BE;
+}
+.wc-enhanced-select {
+    text-transform: capitalize;
+}
+.departure_dates_status {
+    border-bottom: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+.departure_dates_status>.wp-picker-container>a, .departure_fdd_status_color>.wp-picker-container>a {
+    display: none;
+}
+a.dashicons.dashicons-no-alt.delete-option.delete-icon {
+    float: right;
+    background: #D54E21;
+    border-radius: 50%;
+    padding: 0px 1px;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+}
+span.date-info{    
+    text-decoration: none;
+    display: inline-block;
+    left: 9%;
+    top: 10px;
+    color: #555;
+    position: absolute;
+}
+.status-call {
+    float: right;
+    margin: 0 0 0 10px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.date-error{
+    display: none;
+}
+.departure-fdd-status-options {
+    background: #fff;
+    padding: 10px 10px 10px;
+    border: 1px solid #ccc;
+}
+.departure_dates_fdd_status {    
+    border-bottom: 1px solid #ccc;
+    margin: 5px;
+    padding: 5px;
+}
+.departure_status_color .wp-picker-container {
+    margin-left: 14px;
+}
+#add-dates .submit{
+    float: none !important;
+    padding: 0 !important;
+}
+
+#fixed_departure_dates_tab_id .dd{
+    float: none;
+}
+.departure-dates-sdate {
+    width: 253px;
+}
+#print-array {
+    float: right;
+    display: inline-flex;
+    position: absolute;
+    top: 58px;
+    right: 10px;
+    border: 1px solid #ccc;
+    width: auto;
+    padding: 5px;
+}
+#print-array h4 {
+    margin-right: 20px;
+}
+td.ui-state-highlight {
+    background: #bbdd88 !important;
+}
+#tab-container{
+    position: relative;
+}
+.post-type-trip #ui-datepicker-div{
+    display: none;
+}
+#fixed_departure_dates_tab_id .fdd-setting-outer-wrap .departure-dates-options label{
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0;
+    font-size: 14px;
+    color: #354052;
+    line-height: 30px;
+}
+
+#fixed_departure_dates_tab_id .fdd-setting-outer-wrap .departure-dates-options .checkbox-label{
+    display: inline-block;
+    width: 42px;
+    height: 22px;
+    border-radius: 40px;
+    position: relative;
+    top: 0;
+    background: #DCDFE6;
+    border: 1px solid #DCDFE6;
+    margin: 3px 0 0;
+    -webkit-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    -moz-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+}
+
+#fixed_departure_dates_tab_id .fdd-setting-outer-wrap .departure-dates-options .checkbox-label:before{
+    content: "";
+    background: #fff;
+    width: 16px;
+    height: 16px;
+    border-radius: 100%;
+    position: absolute;
+    left: 2px;
+    top: 2px;
+    -webkit-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    -moz-transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+    transition: all cubic-bezier(1, 0, 0, 1) 0.35s;
+}
+
+#fixed_departure_dates_tab_id .fdd-setting-outer-wrap .departure-dates-options input[type="checkbox"]{
+    clip: rect(1px, 1px, 1px, 1px);
+    position: absolute;
+    height: 1px;
+    width: 1px;
+    overflow: hidden;
+    word-wrap: normal;
+}
+
+#fixed_departure_dates_tab_id .fdd-setting-outer-wrap .departure-dates-options input[type="checkbox"]:checked + .checkbox-label{
+    background: #1A84EE;
+    border-color: #1A84EE;
+}
+
+#fixed_departure_dates_tab_id .fdd-setting-outer-wrap .departure-dates-options input[type="checkbox"]:checked + .checkbox-label:before{
+    left: calc(100% - 18px);
+}
+
+
+.clearfix:before,
+.clearfix:after{
+    clear: both;
+    content: "";
+    display: table;
+}
+.clearfix:after{
+	clear: both;
+}
+.clearfix{
+	zoom:1;
+}
+.post-type-wte-fixed-departure-dates #minor-publishing {
+    display: none;
+}
+a.accordion-toggle:focus{
+ outline: none;
+ box-shadow: none;
+}
+
+.dd{
+    max-width: 790px;
+}
+.dd3-handle {
+    position: absolute;
+    margin: 1px 0 0 1px;
+    font-size: 26px;
+    line-height: 1.55;
+    width: 46px;
+    text-indent: 100%;
+    border: none;
+    border-radius: 0;
+    height: 36px;
+    overflow: hidden;
+    cursor: move;
+    background: #fafafa;
+}
+.dd3-handle:before {
+    content: '≡';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: -4px;
+    width: 100%;
+    text-align: center;
+    text-indent: 0;
+    color: #555;
+    font-size: 28px;
+    font-weight: 400;
+}
+.accordion-content{
+    display: block;
+    padding: 10px;
+    color: #333;
+    text-decoration: none;
+    -webkit-border-radius: 3px;
+    border-radius: 0;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+a.accordion-toggle{
+	padding: 18px 0;
+     border: 1px solid #ccc;
+     display: block;
+     background: #fff;
+}
+li.dd-item.dd3-item {
+    background: #fff;
+    margin: 0 0 15px 0;
+}
+span.dashicons.dashicons-arrow-down.custom-toggle-dates{
+	float: right;
+	text-decoration: none;
+	color: #4e4e4e;
+	box-shadow: none;
+    margin: -10px 5px 0;
+    opacity: 0.9;
+}
+#tabs:after{
+	clear: both;
+	content: "";
+	display: block;
+}
+
+.ui-tabs.ui-tabs-vertical .ui-tabs-nav li a:hover{
+	background: #ddd;
+
+}
+
+/*setting tab css backend*/
+
+.tm-option-field-wrap,.tm-option-field-wrap-inner {
+    width: 97%;
+    margin: 15px 0;
+}
+.tm-option-field-wrap label {
+    width: 200px;
+    float: left;
+    margin-right: 10px;
+    font-weight: bold;
+    padding: 5px 0;
+}
+.tm-option-field-wrap-inner label{
+    width: 110px;
+    float: left;
+    /* margin-right: 10px; */
+    font-weight: bold;
+    padding: 5px 0;
+}
+.tm-option-field {
+    float: left;
+}
+.tm-option-field.social-profile{
+    float: none;
+}
+.tm-option-side-note,.tm-option-note {
+    font-style: italic;
+    color: #777;
+    font-weight: normal;
+}
+#tm_demo {
+    margin-left: 27%;
+}
+input.shortcode-usage,.wp-tm-option-field textarea {
+    background: #fff;
+    margin-top: 10px;
+    width: 300px;
+}
+.nav-tab-wrapper {
+    padding-bottom: 0px !important;
+    border-bottom: none !important;
+}
+#wte-fixed-departure-dates_tab_id .nav-tab:hover
+{
+	background: #ddd;
+}
+#wte-fixed-departure-dates_tab_id .nav-tab:focus{
+
+	box-shadow: none !important;
+}
+/*photo-upload*/
+
+
+.tm-option-field.tm-sortable-icons.clearfix{
+	float: none;
+}
+.toggle-social .icon-name {
+    display: inline-block;
+}
+span.dashicons.custom-toggle-social {
+    float: right;
+}
+i.dashicons.dashicons-no-alt.delete-dates.delete-icon {
+    float: right;
+    margin-top: 10px;
+    margin-right: 5px;
+    opacity: 0.9;
+    color: #c22;
+    cursor: pointer;
+}
+i.dashicons.dashicons-no-alt.delete-dates.delete-icon:hover{
+    opacity: 1;
+}
+
+#wte-fixed-departure-dates_tab_id a:hover,
+#wte-fixed-departure-dates_tab_id a:active,
+#wte-fixed-departure-dates_tab_id a:focus{
+  color:#777 ;
+}
+a.toggle-social-color .icon-name {
+    display: inline-block;
+    margin: 0 0 0 12px;
+}
+.settings-save p.submit {
+    margin-left: 28%;
+}
+.fdd-setting-outer-wrap {
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: auto;
+    background: #f1f1f1;
+}
+.fdd-setting-outer-wrap:after {
+    clear: both;
+    content: "";
+    display: block;
+}
+.departure-datessettings {
+    margin: -20px 0 0 0;
+}
+.departure-status-options {
+    /* margin: 0 0 0 0; */
+    background: #fff;
+    padding: 10px 10px 10px;
+    border: 1px solid #ccc;
+}
+.mfp-content {
+    position: relative;
+    background: #FFF;
+    padding: 20px;
+    width: auto;
+    max-width: 500px;
+    margin: 20px auto;
+  }
+
+.wpte-multi-checboxes input[type="checkbox"] {
+    display: inline-block;
+}
+
+
+.wpte-field-title-lb{
+    font-size: 18px;
+    font-weight: 400;
+    color: rgba(35,40,45,0.9);
+    position: relative;
+    display: block;
+    margin-bottom: 35px;
+}
+.wpte-field-title-lb:after{
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 0;
+    margin-top: 5px;
+    width: 45px;
+    height: 1px;
+    background: rgba(126,137,147,0.8);
+}
+.mfp-auto-cursor .mfp-content{
+    max-width: 1169px;
+    padding: 60px 212px 60px 60px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.wpte-recurr-indiv-wrap{
+    display: block;
+    padding: 20px;
+    border: solid 1px rgba(26,132,238,0.15);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.wpte-recurr-indiv-wrap.toggleonmain{
+    background: rgba(26, 132, 238, 0.02);
+}
+.wpte-recurr-indiv-wrap > label{
+    width: 100%;
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #23282D;
+    position: relative;
+}
+/*.wpte-recurr-indiv-wrap > label:before{
+    content: "";
+    position: absolute;
+    z-index: -1;
+    height: 16px;
+    width: 16px;
+    top: -2px;
+    left: 0;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 2px #7E8993;
+}*/
+.wpte-recurr-indiv-wrap input:focus,
+.wpte-recurr-indiv-wrap input:active{
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.wpte-recurr-indiv-wrap input[type="radio"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 20px;
+    width: 20px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: solid 2px #7E8993;
+    margin-right: 14px;
+}
+.wpte-recurr-indiv-wrap input[type="radio"]:checked{
+    border: 6px solid #1A84EE;
+    background: #FFF;
+}
+/*.wpte-recurr-indiv-wrap input[type="radio"]:checked{
+    opacity: 1;
+}*/
+.wpte-recurr-indiv-wrap input[type="radio"]:checked:before{
+    display: none;
+}
+.wpte-recurr-indiv-toggle-content{
+    display: none;
+}
+.wpte-recurr-indiv-toggle-wrap label.toggleon + .wpte-recurr-indiv-toggle-content{
+    display: block;
+}
+.wpte-recurr-indiv-toggle-content{
+    margin: 25px 30px 0;
+    padding: 20px 0 10px;
+    border-top: 1px solid rgba(126,137,147,0.1);
+}
+.wpte-recurr-indiv-toggle-content .wpte-recurr-inn-title{
+    font-size: 16px;
+    color: rgba(35,40,45,0.8);
+    font-weight: 600;
+    display: block;
+    margin-bottom: 25px;
+}
+.wpte-recurr-indiv-toggle-content .wpte-multi-checboxes label{
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 20px;
+    font-size: 14px;
+    color: #23282D;
+    font-weight: 400;
+}
+.wpte-recurr-indiv-toggle-content .wpte-multi-checboxes label input[type="checkbox"]{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 15px;
+    width: 15px;
+    margin-right: 8px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    border: 2px solid #7E8993;
+}
+.wpte-recurr-indiv-toggle-content .wpte-multi-checboxes label input[type="checkbox"]:checked{
+    background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='10.225' height='8.578' viewBox='0 0 10.225 8.578'%3E%3Cpath id='Path_23591' data-name='Path 23591' d='M-18931.7-14083.545l1.648,1.646,5.748-5.75' transform='translate(18933.113 14089.063)' fill='none' stroke='%23fff' stroke-linecap='round' stroke-width='2'/%3E%3C/svg%3E%0A");
+    background-repeat: no-repeat;
+    border-color: #1A84EE;
+    -webkit-background-size: 10px;
+    -o-background-size: 10px;
+    background-size: 10px;
+    background-position: center;
+    background-color: #1A84EE;
+}
+.wpte-recurr-indiv-toggle-content .wpte-multi-checboxes label input[type="checkbox"]:checked:before{
+    display: none;
+}
+.wpte-recurr-limit{
+    background: rgba(26, 132, 238, 0.02);
+}
+.wpte-recurr-limit label{
+    display: inline-block;
+    width: auto;
+    margin-right: 20px;
+}
+.wpte-recurr-limit input[type="number"]{
+    display: inline-block;
+    border: 1px solid rgba(26, 132, 238, 0.15);
+    height: 40px;
+    line-height: 40px;
+    padding: 0 20px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    background: rgba(26, 132, 238, 0.02);
+}
+.wpte-recurr-limit-text {
+    margin: 40px 0px 20px;
+    padding: 21px 30px 24px;
+    border: solid 1px #1A84EE;
+    display: block;
+    font-size: 14px;
+    font-weight: 400;
+    background: #FFF;
+}
+.wpte-table .wpte-checkbox.advance-checkbox{
+    width: auto;
+    display: inline-block;
+}
+.wpte-table .wpte-checkbox.advance-checkbox + a.open-popup-link{
+    display: inline-block;
+    margin-left: 10px;
+    font-size: 14px;
+}
+.mfp-content .mfp-close{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    color: #FFF !important;
+    background: #1A84EE;
+    padding: 15px 30px;
+    -webkit-border-radius: 30px;
+    border-radius: 30px;
+    opacity: 1;
+    height: auto;
+    width: auto;
+    line-height: 1;
+    margin: 40px 30px 0 0;
+}

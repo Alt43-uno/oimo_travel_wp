@@ -1,0 +1,631 @@
+# Copyright (C) 2022 WP Travel Engine
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine - Trip Reviews 2.1.2\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-09-05 05:15:13+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP Travel Engine <info@codewing.co>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../wp-travel-engine-trip-reviews\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/admin/review-tabs/reviews-form.php:10
+msgid "You can add trip reviews from the below form."
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:14
+msgid "Rating:"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:35
+msgid "Review Title:"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:41
+msgid "Review Date:"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:47
+msgid "Review:"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:52
+msgid "Name:"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:57
+msgid "E-mail:"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:64
+#: includes/class-library.php:277 includes/class-library.php:282
+#: includes/class-wte-trip-reviews-functions.php:193
+#: includes/class-wte-trip-reviews-functions.php:197
+msgid "Date Of Experience"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:68
+msgid "Client Country"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:74
+msgid "Please Select Country"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:79
+msgid "No Country List Found"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:86
+msgid "User Image"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:88
+#: includes/class-wte-trip-reviews-functions.php:225
+msgid "Upload Photo"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:92
+#: includes/class-wte-trip-reviews-functions.php:227
+msgid "Remove Photo"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:96
+#: includes/class-wte-trip-reviews-functions.php:234
+msgid "Gallery Images"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:98
+msgid "Add Image to Gallery"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:99
+#: includes/admin/review-tabs/reviews-form.php:101
+#: includes/class-wte-trip-reviews-functions.php:239
+#: includes/class-wte-trip-reviews-functions.php:240
+msgid "Add Image(s)"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-form.php:121
+msgid "Add Review"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:9
+msgid "Note"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:10
+msgid ""
+"You can use the shortcode <b>[Wte_Trip_Review_List]</b> to display Trip "
+"Reviews for individual trip in tabs or trip content."
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:11
+msgid ""
+"Use the shortcode <b>[Wte_All_Trip_Review_List]</b> to display Trip Reviews "
+"for all trips in trip tabs or pages."
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:12
+msgid ""
+"Trip reviews can also be managed from the default comment edit screens in "
+"admin dashboard."
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:63
+#: templates/comment-thread.php:43
+msgid "By %s"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:116
+msgid "Unapprove this comment"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:116
+msgid "Unapprove"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:119
+msgid "Approve this comment"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:119
+msgid "Approve"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:123
+msgid "Mark this comment as spam"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:126
+msgid "Restore this comment from the spam"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:131
+msgid "Restore this comment from the Trash"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:131
+msgid "Restore"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:136
+msgid "Delete this comment permanently"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:136
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:139
+msgid "Move this comment to the Trash"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:144
+msgid "Edit this comment"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:144
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:149
+msgid "Quick edit this comment inline"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:149
+msgid "Quick&nbsp;Edit"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:151
+msgid "Reply to this comment"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:151
+msgid "Reply"
+msgstr ""
+
+#: includes/admin/reviews.php:7 includes/admin/reviews.php:8
+#: includes/class-wte-trip-reviews-backend-menu.php:29
+msgid "Trip Reviews"
+msgstr ""
+
+#: includes/admin/reviews.php:17 includes/admin/reviews.php:18
+msgid "Trip Review Form"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:14
+msgid "Hide Trip Reviews "
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:19
+msgid "Enable the switch to hide whole trip reviews section on your trip page."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:22
+msgid "Hide Trip Review Form"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:27
+msgid "Enable the switch to hide trip review form section on your trip page."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:30
+msgid "Review Labels"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:33
+msgid "Trip Review Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:35
+msgid ""
+"Default Label: Overall Trip Rating. This label is displayed before the post "
+"specific trip reviews."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:38
+msgid "Company Trip Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:40
+msgid ""
+"Default Label: Overall Company Rating. This label is displayed before the "
+"all trip's review listing rather than individual post reviews."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:43
+msgid "Reviewed Tour Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:45
+msgid ""
+"Default Label: Reviewed Tour. This label is displayed before the trip post "
+"link on singular review i.e. quick link to trip post on which review was "
+"posted."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:48
+msgid "Excellent Review Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:52
+msgid "Very Good Review Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:56
+msgid "Average Review Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:60
+msgid "Poor Review Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:64
+msgid "Terrible Review Label"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:69
+msgid "Emoticons Setting"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:72
+msgid "Show Trip Review Emoticons"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:77
+msgid ""
+"Default: Hidden. If checked, emoticons will be shown for average review and "
+"overall overage review section."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:81
+msgid "Show/Hide Fields"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:84
+msgid "Hide Experience Date Field"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:89
+msgid ""
+"Default: Shown. If checked, Experience Date field will be hidden from form "
+"and won't be shown in review section."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:92
+msgid "Hide Gallery Image"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:97
+msgid ""
+"Default: Shown. If checked, Gallery Image field will be hidden from form "
+"and won't be shown in review section."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:100
+msgid "Hide Reviewed Tour"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:105
+msgid ""
+"Default: Shown. If checked, Reviewed Tour Link won't be shown in review "
+"section."
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:108
+msgid "Hide Client Location"
+msgstr ""
+
+#: includes/admin/wte-trip-reviews-global-extension-subsetting.php:113
+msgid ""
+"Default: Shown. If checked, Client Location field will be hidden from form "
+"and won't be shown in review section."
+msgstr ""
+
+#: includes/class-comment-parts.php:120 init.php:1010
+#: templates/comment-thread.php:76
+msgid "Reviewed Tour"
+msgstr ""
+
+#: includes/class-comment-parts.php:192 init.php:1095
+#: templates/comment-thread.php:153
+msgid "Date of Experience"
+msgstr ""
+
+#: includes/class-comment-parts.php:217 init.php:1124
+#: templates/comment-thread.php:58
+msgid "from"
+msgstr ""
+
+#: includes/class-library.php:25 init.php:828
+msgid "Name*"
+msgstr ""
+
+#: includes/class-library.php:39 init.php:833
+msgid "Email*"
+msgstr ""
+
+#: includes/class-library.php:52
+msgid "Website"
+msgstr ""
+
+#: includes/class-library.php:64
+msgid "Write review description"
+msgstr ""
+
+#: includes/class-library.php:74
+msgid ""
+"Save my name, email, and website in this browser for the next time I "
+"comment."
+msgstr ""
+
+#: includes/class-library.php:181
+msgid "Excellent"
+msgstr ""
+
+#: includes/class-library.php:182
+msgid "Very Good"
+msgstr ""
+
+#: includes/class-library.php:183
+msgid "Average"
+msgstr ""
+
+#: includes/class-library.php:184
+msgid "Poor"
+msgstr ""
+
+#: includes/class-library.php:185
+msgid "Terrible"
+msgstr ""
+
+#: includes/class-library.php:207 includes/class-library.php:246
+msgid "Ratings*"
+msgstr ""
+
+#: includes/class-library.php:267
+msgid "Add review title"
+msgstr ""
+
+#: includes/class-library.php:270
+msgid "Review Title*"
+msgstr ""
+
+#: includes/class-library.php:293
+msgid ""
+"%2$sDrop your Image or click to %1$sbrowse%3$s%3$s%4$sSupported file : JPG, "
+"PNG, GIF%3$s"
+msgstr ""
+
+#: includes/class-library.php:303
+msgid "Add Images"
+msgstr ""
+
+#: includes/class-library.php:305
+msgid "Photo Gallery"
+msgstr ""
+
+#: includes/class-library.php:306
+msgid "Invalid File Type. Supported File Type: JPEG/JPG, PNG."
+msgstr ""
+
+#: includes/class-library.php:387 includes/helper-functions.php:79
+#. translators: %s template
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/class-library.php:403
+msgid ""
+"action_args should not be overwritten when calling "
+"wte_trip_reviews_get_template."
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:41
+msgid "Personal Information"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:122
+msgid "Ratings"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:131
+msgid "This field is required"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:146
+msgid "Comment Metadata - WTE Trip Review Comment"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:161
+#: includes/class-wte-trip-reviews-functions.php:168
+msgid "Review Title"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:174
+msgid "Rating"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:203
+#: includes/class-wte-trip-reviews-functions.php:207
+msgid "Client Location"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:216
+msgid "Photo"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:238
+msgid "Add image to gallery"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:256
+#: includes/class-wte-trip-reviews-functions.php:258
+msgid "Change Image"
+msgstr ""
+
+#: includes/class-wte-trip-reviews-functions.php:257
+msgid "Change image"
+msgstr ""
+
+#: includes/helper-functions.php:96
+msgid ""
+"action_args should not be overwritten when calling "
+"wp_travel_engine_trip_reviews_get_template."
+msgstr ""
+
+#: init.php:139
+msgid "All post types"
+msgstr ""
+
+#: init.php:146
+msgid "Reviews"
+msgstr ""
+
+#: init.php:161
+msgid "Please wait while comment is being processed."
+msgstr ""
+
+#: init.php:184 init.php:204
+msgid "Based on "
+msgstr ""
+
+#: init.php:203
+msgid "stars"
+msgstr ""
+
+#: init.php:361 init.php:409 init.php:466 init.php:512
+msgid "Read More Reviews"
+msgstr ""
+
+#: init.php:661
+msgid "Overall Company Rating"
+msgstr ""
+
+#: init.php:675
+msgid "Overall Trip Rating"
+msgstr ""
+
+#: init.php:842
+msgid "Write a review*"
+msgstr ""
+
+#: init.php:857
+msgid "Submit"
+msgstr ""
+
+#: init.php:858
+msgid "Write a Review"
+msgstr ""
+
+#: init.php:876
+msgid "Thank you. Your review will appear after admin approves it."
+msgstr ""
+
+#: init.php:876
+msgid "Please fill all the fields."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:266
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:274
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:517
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:517
+msgid "Error"
+msgstr ""
+
+#: wte-trip-review.php:185
+#. translators: 1. WTE Extension Name 2. Link to WTE Plugin.
+msgid ""
+"%1$s requires the %2$s plugin to work. Please install and activate the "
+"latest <strong>%2$s</strong> plugin first."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Travel Engine - Trip Reviews"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wptravelengine.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "An extension for WP Travel Engine plugin to add trip review with ratings."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:123
+#. translators: mark as spam link
+msgctxt "verb"
+msgid "Spam"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:139
+msgctxt "verb"
+msgid "Trash"
+msgstr ""
+
+#: includes/admin/review-tabs/reviews-list.php:126
+msgctxt "comment"
+msgid "Not Spam"
+msgstr ""
+
+#: includes/class-comment-parts.php:161 init.php:1058
+msgctxt "%2$s = human-readable time difference"
+msgid "%1$s ago"
+msgstr ""
+
+#: includes/class-library.php:28 init.php:827
+msgctxt "wte-trip-review"
+msgid "Name"
+msgstr ""
+
+#: includes/class-library.php:42 init.php:832
+msgctxt "wte-trip-review"
+msgid "Email"
+msgstr ""
+
+#: includes/class-library.php:55 init.php:837 init.php:838
+msgctxt "wte-trip-review"
+msgid "Website"
+msgstr ""
+
+#: includes/class-library.php:66
+msgctxt "noun"
+msgid "Write Review*"
+msgstr ""
+
+#: init.php:842
+msgctxt "noun"
+msgid "Review"
+msgstr ""
+
+#: init.php:184
+msgctxt "review count"
+msgid "%s travel review"
+msgid_plural "%s travel reviews"
+msgstr[0] ""
+msgstr[1] ""

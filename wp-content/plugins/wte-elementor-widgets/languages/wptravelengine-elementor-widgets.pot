@@ -1,0 +1,2905 @@
+# Copyright (C) 2023 WP Travel Engine
+# This file is distributed under the same license as the WP Travel Engine - Elementor Widgets package.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine - Elementor Widgets 1.3.1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-09-14 06:48:07+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2023-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Elementor Addons for WP Travel Engine\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../wte-elementor-widgets\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: includes/trip-widgets/reviews/demo.php:77
+#: includes/trip-widgets/reviews/demo.php:85
+#: includes/trip-widgets/reviews/demo.php:93
+#: includes/trip-widgets/reviews/demo.php:101
+msgid "0"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:69
+msgid "1"
+msgstr ""
+
+#: includes/trip-widgets/duration/demo.php:18
+msgid "14"
+msgstr ""
+
+#: includes/blocks/terms/layouts/layout-1.php:47
+msgid "View All"
+msgstr ""
+
+#: includes/blocks/trips/block.php:83
+#: includes/trip-widgets/relatedtrips/relatedtrips.php:148
+msgid "Day"
+msgstr ""
+
+#: includes/blocks/trips/block.php:83
+#: includes/trip-widgets/duration/controls.php:175
+#: includes/trip-widgets/duration/demo.php:21
+#: includes/trip-widgets/relatedtrips/relatedtrips.php:148
+msgid "Days"
+msgstr ""
+
+#: includes/blocks/trips/block.php:84
+#: includes/trip-widgets/relatedtrips/relatedtrips.php:149
+msgid "Night"
+msgstr ""
+
+#: includes/blocks/trips/block.php:84
+#: includes/trip-widgets/relatedtrips/relatedtrips.php:149
+msgid "Nights"
+msgstr ""
+
+#: includes/blocks/trips/block.php:85
+#: includes/trip-widgets/relatedtrips/relatedtrips.php:150
+msgid "Hour"
+msgstr ""
+
+#: includes/blocks/trips/block.php:85
+#: includes/trip-widgets/relatedtrips/relatedtrips.php:150
+msgid "Hours"
+msgstr ""
+
+#: includes/blocks/trips/block.php:170
+#: includes/trip-widgets/relatedtrips/relatedtrips.php:237
+msgid "No trips available. Please add a new trip."
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:23
+#: includes/blocks/trips/layouts/layout-2.php:52
+#: includes/blocks/trips/layouts/layout-3.php:51
+#: includes/blocks/trips/layouts/layout-4.php:51
+#: includes/blocks/trips/layouts/layout-5.php:52 includes/class-widgets.php:250
+msgid "Featured"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:131
+#: includes/blocks/trips/layouts/layout-2.php:168
+#: includes/blocks/trips/layouts/layout-3.php:143
+#: includes/blocks/trips/layouts/layout-4.php:133
+#: includes/blocks/trips/layouts/layout-5.php:156
+msgid "%s People"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:141
+msgid "%1$s%% "
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:142
+msgid "Off"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:175
+#: includes/blocks/trips/layouts/layout-1.php:273
+#: includes/blocks/trips/layouts/layout-3.php:150
+#: includes/blocks/trips/layouts/layout-4.php:149
+#: includes/class-widgets.php:369
+#: includes/trip-widgets/relatedtrips/controls.php:533
+msgid "View Details"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:197
+#: includes/blocks/trips/layouts/layout-1.php:229
+msgid "Available through out the year:"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:229
+msgid "Available in the following months:"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:246
+msgid "Next Departure"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:256
+msgid "%s Available"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-2.php:21
+#: includes/blocks/trips/layouts/layout-3.php:21
+#: includes/blocks/trips/layouts/layout-4.php:21
+#: includes/blocks/trips/layouts/layout-5.php:21
+msgid "%1$s%% Off"
+msgstr ""
+
+#: includes/class-widget.php:160
+msgid "Untitled"
+msgstr ""
+
+#: includes/class-widget.php:235 includes/trip-widgets/booking/controls.php:271
+#: includes/trip-widgets/booking/controls.php:353
+#: includes/trip-widgets/booking/controls.php:375
+#: includes/trip-widgets/booking/controls.php:409
+#: includes/trip-widgets/booking/controls.php:440
+#: includes/trip-widgets/carousel/controls.php:271
+#: includes/trip-widgets/carousel/controls.php:302
+#: includes/trip-widgets/duration/controls.php:118
+#: includes/trip-widgets/duration/controls.php:149
+#: includes/trip-widgets/duration/controls.php:201
+#: includes/trip-widgets/duration/controls.php:232
+#: includes/trip-widgets/enquiry/controls.php:145
+#: includes/trip-widgets/enquiry/controls.php:200
+#: includes/trip-widgets/enquiry/controls.php:231
+#: includes/trip-widgets/faqs/controls.php:256
+#: includes/trip-widgets/faqs/controls.php:296
+#: includes/trip-widgets/fixedstartingdate/controls.php:280
+#: includes/trip-widgets/fixedstartingdate/controls.php:311
+#: includes/trip-widgets/fixedstartingdate/controls.php:370
+#: includes/trip-widgets/fixedstartingdate/controls.php:401
+#: includes/trip-widgets/fixedstartingdate/controls.php:447
+#: includes/trip-widgets/highlights/controls.php:139
+#: includes/trip-widgets/itinerary/controls.php:276
+#: includes/trip-widgets/itinerary/controls.php:356
+#: includes/trip-widgets/itinerary/controls.php:469
+#: includes/trip-widgets/map/controls.php:130
+#: includes/trip-widgets/overview/controls.php:114
+#: includes/trip-widgets/relatedtrips/controls.php:560
+#: includes/trip-widgets/relatedtrips/controls.php:586
+#: includes/trip-widgets/relatedtrips/controls.php:966
+#: includes/trip-widgets/relatedtrips/controls.php:982
+#: includes/trip-widgets/relatedtrips/controls.php:1005
+#: includes/trip-widgets/relatedtrips/controls.php:1036
+#: includes/trip-widgets/reviewform/controls.php:228
+#: includes/trip-widgets/reviewform/controls.php:283
+#: includes/trip-widgets/reviewform/controls.php:314
+#: includes/trip-widgets/reviews/controls.php:188
+#: includes/trip-widgets/reviews/controls.php:277
+#: includes/trip-widgets/reviews/controls.php:326
+#: includes/widgets/terms/controls.php:227
+#: includes/widgets/terms/controls.php:253
+#: includes/widgets/terms/controls.php:351
+#: includes/widgets/terms/controls.php:561
+#: includes/widgets/terms/controls.php:592
+#: includes/widgets/trip-search/controls.php:99
+#: includes/widgets/trip-search/controls.php:141
+#: includes/widgets/trip-search/controls.php:239
+#: includes/widgets/trip-search/controls.php:270
+#: includes/widgets/trips/controls.php:252
+#: includes/widgets/trips/controls.php:278
+#: includes/widgets/trips/controls.php:658
+#: includes/widgets/trips/controls.php:674
+#: includes/widgets/trips/controls.php:697
+#: includes/widgets/trips/controls.php:728
+msgid "Background Color"
+msgstr ""
+
+#: includes/class-widget.php:269 includes/class-widget.php:299
+#: includes/trip-widgets/booking/controls.php:277
+#: includes/trip-widgets/booking/controls.php:430
+#: includes/trip-widgets/booking/controls.php:461
+#: includes/trip-widgets/carousel/controls.php:292
+#: includes/trip-widgets/carousel/controls.php:323
+#: includes/trip-widgets/duration/controls.php:130
+#: includes/trip-widgets/duration/controls.php:161
+#: includes/trip-widgets/duration/controls.php:213
+#: includes/trip-widgets/duration/controls.php:244
+#: includes/trip-widgets/enquiry/controls.php:166
+#: includes/trip-widgets/enquiry/controls.php:221
+#: includes/trip-widgets/enquiry/controls.php:252
+#: includes/trip-widgets/fixedstartingdate/controls.php:301
+#: includes/trip-widgets/fixedstartingdate/controls.php:332
+#: includes/trip-widgets/fixedstartingdate/controls.php:391
+#: includes/trip-widgets/fixedstartingdate/controls.php:422
+#: includes/trip-widgets/highlights/controls.php:145
+#: includes/trip-widgets/map/controls.php:136
+#: includes/trip-widgets/overview/controls.php:120
+#: includes/trip-widgets/relatedtrips/controls.php:566
+#: includes/trip-widgets/relatedtrips/controls.php:592
+#: includes/trip-widgets/relatedtrips/controls.php:1026
+#: includes/trip-widgets/relatedtrips/controls.php:1057
+#: includes/trip-widgets/reviewform/controls.php:249
+#: includes/trip-widgets/reviewform/controls.php:304
+#: includes/trip-widgets/reviewform/controls.php:335
+#: includes/widgets/terms/controls.php:233
+#: includes/widgets/terms/controls.php:268
+#: includes/widgets/terms/controls.php:582
+#: includes/widgets/terms/controls.php:613
+#: includes/widgets/trip-search/controls.php:116
+#: includes/widgets/trip-search/controls.php:260
+#: includes/widgets/trip-search/controls.php:291
+#: includes/widgets/trips/controls.php:258
+#: includes/widgets/trips/controls.php:284
+#: includes/widgets/trips/controls.php:718
+#: includes/widgets/trips/controls.php:749
+msgid "Box Shadow"
+msgstr ""
+
+#: includes/class-widget.php:279 includes/trip-widgets/faqs/controls.php:115
+#: includes/trip-widgets/title/controls.php:88
+msgid "Text Stroke"
+msgstr ""
+
+#: includes/class-widget.php:289 includes/trip-widgets/faqs/controls.php:120
+#: includes/trip-widgets/highlights/controls.php:122
+#: includes/trip-widgets/overview/controls.php:97
+#: includes/trip-widgets/title/controls.php:93
+msgid "Text Shadow"
+msgstr ""
+
+#: includes/class-widget.php:309 includes/trip-widgets/booking/controls.php:239
+#: includes/trip-widgets/booking/controls.php:398
+#: includes/trip-widgets/breadcrumbs/controls.php:120
+#: includes/trip-widgets/carousel/controls.php:260
+#: includes/trip-widgets/costexcludes/controls.php:44
+#: includes/trip-widgets/costincludes/controls.php:44
+#: includes/trip-widgets/enquiry/controls.php:124
+#: includes/trip-widgets/enquiry/controls.php:140
+#: includes/trip-widgets/enquiry/controls.php:189
+#: includes/trip-widgets/facts/controls.php:93
+#: includes/trip-widgets/facts/controls.php:109
+#: includes/trip-widgets/faqs/controls.php:150
+#: includes/trip-widgets/faqs/controls.php:199
+#: includes/trip-widgets/faqs/controls.php:235
+#: includes/trip-widgets/faqs/controls.php:269
+#: includes/trip-widgets/fixedstartingdate/controls.php:203
+#: includes/trip-widgets/fixedstartingdate/controls.php:257
+#: includes/trip-widgets/fixedstartingdate/controls.php:347
+#: includes/trip-widgets/highlights/controls.php:92
+#: includes/trip-widgets/itinerary/controls.php:266
+#: includes/trip-widgets/itinerary/controls.php:310
+#: includes/trip-widgets/itinerary/controls.php:346
+#: includes/trip-widgets/itinerary/controls.php:373
+#: includes/trip-widgets/itinerary/controls.php:401
+#: includes/trip-widgets/overview/controls.php:67
+#: includes/trip-widgets/ratings/controls.php:82
+#: includes/trip-widgets/relatedtrips/controls.php:611
+#: includes/trip-widgets/relatedtrips/controls.php:766
+#: includes/trip-widgets/relatedtrips/controls.php:810
+#: includes/trip-widgets/relatedtrips/controls.php:994
+#: includes/trip-widgets/reviewform/controls.php:173
+#: includes/trip-widgets/reviewform/controls.php:207
+#: includes/trip-widgets/reviewform/controls.php:223
+#: includes/trip-widgets/reviewform/controls.php:272
+#: includes/trip-widgets/reviews/controls.php:166
+#: includes/trip-widgets/reviews/controls.php:261
+#: includes/trip-widgets/reviews/controls.php:288
+#: includes/trip-widgets/reviews/controls.php:337
+#: includes/trip-widgets/reviews/controls.php:359
+#: includes/trip-widgets/title/controls.php:78
+#: includes/widgets/terms/controls.php:185
+#: includes/widgets/terms/controls.php:293
+#: includes/widgets/terms/controls.php:544
+#: includes/widgets/trip-search/controls.php:105
+#: includes/widgets/trip-search/controls.php:222
+#: includes/widgets/trips/controls.php:303
+#: includes/widgets/trips/controls.php:458
+#: includes/widgets/trips/controls.php:502
+#: includes/widgets/trips/controls.php:686
+msgid "Typography"
+msgstr ""
+
+#: includes/class-widget.php:401 includes/class-widgets.php:454
+#: includes/class-widgets.php:687 includes/class-widgets.php:817
+#: includes/trip-widgets/booking/widget.php:108
+#: includes/trip-widgets/breadcrumbs/widget.php:90
+#: includes/trip-widgets/carousel/widget.php:104
+#: includes/trip-widgets/costexcludes/widget.php:98
+#: includes/trip-widgets/costincludes/widget.php:98
+#: includes/trip-widgets/duration/widget.php:93
+#: includes/trip-widgets/enquiry/widget.php:90
+#: includes/trip-widgets/facts/widget.php:94
+#: includes/trip-widgets/faqs/widget.php:96
+#: includes/trip-widgets/fixedstartingdate/widget.php:94
+#: includes/trip-widgets/map/widget.php:90
+#: includes/trip-widgets/ratings/widget.php:101
+#: includes/trip-widgets/reviewform/widget.php:109
+#: includes/trip-widgets/reviews/widget.php:100
+#: includes/trip-widgets/title/widget.php:90
+msgid "<p>Oops! No preview/output available for this widget.</p>"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr ""
+
+#: includes/class-widgets.php:69 includes/class-widgets.php:186
+#: includes/class-widgets.php:471
+#: includes/trip-widgets/relatedtrips/controls.php:12
+#: includes/trip-widgets/relatedtrips/controls.php:349
+msgid "Grid"
+msgstr ""
+
+#: includes/class-widgets.php:70 includes/class-widgets.php:187
+#: includes/trip-widgets/relatedtrips/controls.php:13
+#: includes/trip-widgets/relatedtrips/controls.php:350
+msgid "List"
+msgstr ""
+
+#: includes/class-widgets.php:74
+#: includes/trip-widgets/relatedtrips/controls.php:17
+msgid "Destination"
+msgstr ""
+
+#: includes/class-widgets.php:75 includes/class-widgets.php:611
+#: includes/class-widgets.php:614
+#: includes/trip-widgets/relatedtrips/controls.php:18
+#: includes/trip-widgets/relatedtrips/controls.php:413
+msgid "Activities"
+msgstr ""
+
+#: includes/class-widgets.php:76 includes/class-widgets.php:617
+#: includes/class-widgets.php:620
+#: includes/trip-widgets/relatedtrips/controls.php:19
+msgid "Trip Types"
+msgstr ""
+
+#: includes/class-widgets.php:77
+#: includes/trip-widgets/relatedtrips/controls.php:20
+#: includes/trip-widgets/relatedtrips/controls.php:416
+msgid "Difficulty"
+msgstr ""
+
+#: includes/class-widgets.php:78
+#: includes/trip-widgets/relatedtrips/controls.php:21
+#: includes/trip-widgets/relatedtrips/controls.php:417
+msgid "Trip Tag"
+msgstr ""
+
+#: includes/class-widgets.php:83 includes/class-widgets.php:188
+#: includes/class-widgets.php:379 includes/class-widgets.php:472
+#: includes/class-widgets.php:597
+#: includes/trip-widgets/relatedtrips/controls.php:26
+#: includes/trip-widgets/relatedtrips/controls.php:351
+#: includes/trip-widgets/relatedtrips/controls.php:543
+#: includes/trip-widgets/relatedtrips/controls.php:1142
+#: includes/widgets/terms/controls.php:623
+#: includes/widgets/trips/controls.php:834
+msgid "Slider"
+msgstr ""
+
+#: includes/class-widgets.php:91
+#: includes/trip-widgets/relatedtrips/controls.php:34
+msgid "Enable Tax Relation"
+msgstr ""
+
+#: includes/class-widgets.php:116
+#: includes/trip-widgets/relatedtrips/controls.php:58
+msgid "Slides Number"
+msgstr ""
+
+#: includes/class-widgets.php:123
+#: includes/trip-widgets/relatedtrips/controls.php:65
+msgid "Space Between Slides"
+msgstr ""
+
+#: includes/class-widgets.php:129
+#: includes/trip-widgets/relatedtrips/controls.php:71
+msgid "Autoplay"
+msgstr ""
+
+#: includes/class-widgets.php:135
+#: includes/trip-widgets/relatedtrips/controls.php:77
+msgid "Autoplay Speed"
+msgstr ""
+
+#: includes/class-widgets.php:141
+#: includes/trip-widgets/relatedtrips/controls.php:83
+msgid "Loop"
+msgstr ""
+
+#: includes/class-widgets.php:147
+#: includes/trip-widgets/relatedtrips/controls.php:89
+msgid "Transition Speed (ms)"
+msgstr ""
+
+#: includes/class-widgets.php:153
+#: includes/trip-widgets/relatedtrips/controls.php:95
+msgid "Slider Arrow"
+msgstr ""
+
+#: includes/class-widgets.php:161
+#: includes/trip-widgets/relatedtrips/controls.php:103
+msgid "Slider Pagination"
+msgstr ""
+
+#: includes/class-widgets.php:172
+msgid "Trips"
+msgstr ""
+
+#: includes/class-widgets.php:180 includes/class-widgets.php:465
+#: includes/class-widgets.php:778
+#: includes/trip-widgets/carousel/controls.php:97
+#: includes/trip-widgets/duration/controls.php:77
+#: includes/trip-widgets/relatedtrips/controls.php:343
+msgid "Layout"
+msgstr ""
+
+#: includes/class-widgets.php:183 includes/class-widgets.php:468
+#: includes/trip-widgets/relatedtrips/controls.php:346
+msgid "Card View"
+msgstr ""
+
+#: includes/class-widgets.php:196 includes/class-widgets.php:488
+#: includes/trip-widgets/relatedtrips/controls.php:359
+msgid "Trips per row"
+msgstr ""
+
+#: includes/class-widgets.php:201 includes/class-widgets.php:495
+#: includes/trip-widgets/relatedtrips/controls.php:364
+msgid "Trips Gap"
+msgstr ""
+
+#: includes/class-widgets.php:225
+#: includes/trip-widgets/relatedtrips/controls.php:388
+msgid "Widget Layouts"
+msgstr ""
+
+#: includes/class-widgets.php:228 includes/class-widgets.php:481
+#: includes/trip-widgets/relatedtrips/controls.php:391
+msgid "Layout 1"
+msgstr ""
+
+#: includes/class-widgets.php:229 includes/class-widgets.php:482
+#: includes/trip-widgets/relatedtrips/controls.php:392
+msgid "Layout 2"
+msgstr ""
+
+#: includes/class-widgets.php:230 includes/class-widgets.php:483
+#: includes/trip-widgets/relatedtrips/controls.php:393
+msgid "Layout 3"
+msgstr ""
+
+#: includes/class-widgets.php:231
+#: includes/trip-widgets/relatedtrips/controls.php:394
+msgid "Layout 4"
+msgstr ""
+
+#: includes/class-widgets.php:232
+#: includes/trip-widgets/relatedtrips/controls.php:395
+msgid "Layout 5"
+msgstr ""
+
+#: includes/class-widgets.php:243 includes/class-widgets.php:522
+#: includes/trip-widgets/relatedtrips/controls.php:406
+msgid "Query"
+msgstr ""
+
+#: includes/class-widgets.php:247
+#: includes/trip-widgets/relatedtrips/controls.php:410
+msgid "Show Trips By"
+msgstr ""
+
+#: includes/class-widgets.php:251
+msgid "Latest"
+msgstr ""
+
+#: includes/class-widgets.php:252
+msgid "On Sale"
+msgstr ""
+
+#: includes/class-widgets.php:253
+msgid "By Terms"
+msgstr ""
+
+#: includes/class-widgets.php:254 includes/class-widgets.php:530
+msgid "Choose from the list"
+msgstr ""
+
+#: includes/class-widgets.php:259
+#: includes/trip-widgets/relatedtrips/controls.php:423
+msgid "Number of Trips"
+msgstr ""
+
+#: includes/class-widgets.php:268
+#: includes/trip-widgets/relatedtrips/controls.php:432
+msgid "Select Trips"
+msgstr ""
+
+#: includes/class-widgets.php:279 includes/class-widgets.php:556
+#: includes/class-widgets.php:706
+#: includes/trip-widgets/booking/controls.php:199
+#: includes/trip-widgets/enquiry/controls.php:87
+#: includes/trip-widgets/itinerary/controls.php:248
+#: includes/trip-widgets/map/controls.php:110
+#: includes/trip-widgets/relatedtrips/controls.php:443
+#: includes/trip-widgets/reviewform/controls.php:132
+msgid "Additional"
+msgstr ""
+
+#: includes/class-widgets.php:282
+#: includes/trip-widgets/relatedtrips/controls.php:446
+msgid "Trip Description"
+msgstr ""
+
+#: includes/class-widgets.php:287
+#: includes/trip-widgets/relatedtrips/controls.php:451
+msgid "Max number of words in description"
+msgstr ""
+
+#: includes/class-widgets.php:294
+#: includes/trip-widgets/relatedtrips/controls.php:458
+msgid "Featured Image"
+msgstr ""
+
+#: includes/class-widgets.php:299
+#: includes/trip-widgets/relatedtrips/controls.php:463
+msgid "Featured Ribbon"
+msgstr ""
+
+#: includes/class-widgets.php:304 includes/trip-widgets/facts/controls.php:89
+#: includes/trip-widgets/faqs/controls.php:93
+#: includes/trip-widgets/faqs/controls.php:194
+#: includes/trip-widgets/fixedstartingdate/controls.php:145
+#: includes/trip-widgets/fixedstartingdate/controls.php:214
+#: includes/trip-widgets/itinerary/controls.php:119
+#: includes/trip-widgets/itinerary/controls.php:306
+#: includes/trip-widgets/relatedtrips/controls.php:468
+#: includes/trip-widgets/relatedtrips/controls.php:761
+#: includes/trip-widgets/reviewform/controls.php:203
+#: includes/trip-widgets/title/controls.php:34
+#: includes/widgets/terms/controls.php:288
+#: includes/widgets/trips/controls.php:453
+msgid "Title"
+msgstr ""
+
+#: includes/class-widgets.php:309
+#: includes/trip-widgets/booking/controls.php:308
+#: includes/trip-widgets/relatedtrips/controls.php:473
+#: includes/trip-widgets/relatedtrips/controls.php:916
+#: includes/widgets/trips/controls.php:608
+msgid "Price"
+msgstr ""
+
+#: includes/class-widgets.php:314
+#: includes/trip-widgets/relatedtrips/controls.php:478
+msgid "Show striked price on sale"
+msgstr ""
+
+#: includes/class-widgets.php:319
+#: includes/trip-widgets/duration/controls.php:92
+#: includes/trip-widgets/relatedtrips/controls.php:483
+msgid "Duration"
+msgstr ""
+
+#: includes/class-widgets.php:325
+#: includes/trip-widgets/relatedtrips/controls.php:489
+msgid "Duration Type"
+msgstr ""
+
+#: includes/class-widgets.php:328
+#: includes/trip-widgets/relatedtrips/controls.php:492
+msgid "Both Days & Nights"
+msgstr ""
+
+#: includes/class-widgets.php:329
+#: includes/trip-widgets/relatedtrips/controls.php:493
+msgid "Days only"
+msgstr ""
+
+#: includes/class-widgets.php:330
+#: includes/trip-widgets/relatedtrips/controls.php:494
+msgid "Nights only"
+msgstr ""
+
+#: includes/class-widgets.php:335 includes/trip-widgets/map/controls.php:55
+#: includes/trip-widgets/relatedtrips/controls.php:499
+msgid "Location"
+msgstr ""
+
+#: includes/class-widgets.php:340
+#: includes/trip-widgets/relatedtrips/controls.php:504
+#: includes/trip-widgets/reviews/controls.php:100
+msgid "Reviews"
+msgstr ""
+
+#: includes/class-widgets.php:344
+#: includes/trip-widgets/booking/controls.php:349
+#: includes/trip-widgets/relatedtrips/controls.php:508
+msgid "Discount"
+msgstr ""
+
+#: includes/class-widgets.php:349
+#: includes/trip-widgets/relatedtrips/controls.php:513
+msgid "Group Size"
+msgstr ""
+
+#: includes/class-widgets.php:353
+#: includes/trip-widgets/relatedtrips/controls.php:517
+msgid "Trip Activities"
+msgstr ""
+
+#: includes/class-widgets.php:357
+#: includes/trip-widgets/relatedtrips/controls.php:415
+#: includes/trip-widgets/relatedtrips/controls.php:521
+msgid "Trip Type"
+msgstr ""
+
+#: includes/class-widgets.php:361
+#: includes/trip-widgets/relatedtrips/controls.php:525
+msgid "Trip Available Times"
+msgstr ""
+
+#: includes/class-widgets.php:365
+#: includes/trip-widgets/relatedtrips/controls.php:529
+msgid "View Details button"
+msgstr ""
+
+#: includes/class-widgets.php:372
+#: includes/trip-widgets/relatedtrips/controls.php:536
+msgid "Button label"
+msgstr ""
+
+#: includes/class-widgets.php:477
+msgid "Choose card layout"
+msgstr ""
+
+#: includes/class-widgets.php:526
+msgid "Show Terms By"
+msgstr ""
+
+#: includes/class-widgets.php:529
+#: includes/trip-widgets/relatedtrips/controls.php:860
+#: includes/widgets/terms/controls.php:636
+#: includes/widgets/trips/controls.php:552
+msgid "Default"
+msgstr ""
+
+#: includes/class-widgets.php:535
+msgid "Number of items"
+msgstr ""
+
+#: includes/class-widgets.php:544
+msgid "Choose terms"
+msgstr ""
+
+#: includes/class-widgets.php:563
+msgid "Show Trip Counts"
+msgstr ""
+
+#: includes/class-widgets.php:568
+msgid "Trips Count Label"
+msgstr ""
+
+#: includes/class-widgets.php:571
+msgid "Trip|Trips"
+msgstr ""
+
+#: includes/class-widgets.php:574
+msgid "Show Name"
+msgstr ""
+
+#: includes/class-widgets.php:579
+msgid "Show view more button on hover"
+msgstr ""
+
+#: includes/class-widgets.php:585
+msgid "View more label"
+msgstr ""
+
+#: includes/class-widgets.php:587
+msgid "View More"
+msgstr ""
+
+#: includes/class-widgets.php:605 includes/class-widgets.php:608
+#: includes/trip-widgets/relatedtrips/controls.php:414
+msgid "Destinations"
+msgstr ""
+
+#: includes/class-widgets.php:713
+msgid "Search Button Label"
+msgstr ""
+
+#: includes/class-widgets.php:715
+msgid "Search Button"
+msgstr ""
+
+#: includes/class-widgets.php:736
+msgid "Filter Label"
+msgstr ""
+
+#: includes/class-widgets.php:742
+msgid "Display Order"
+msgstr ""
+
+#: includes/class-widgets.php:759
+msgid "Choose Icon"
+msgstr ""
+
+#: includes/class-widgets.php:770
+msgid "Trip Search"
+msgstr ""
+
+#: includes/class-widgets.php:781
+msgid "Search Form Orientation"
+msgstr ""
+
+#: includes/class-widgets.php:784
+msgid "Horizontal (Default)"
+msgstr ""
+
+#: includes/class-widgets.php:785
+#: includes/trip-widgets/duration/controls.php:84
+#: includes/trip-widgets/relatedtrips/controls.php:905
+#: includes/widgets/trips/controls.php:597
+msgid "Vertical"
+msgstr ""
+
+#: includes/trip-widgets/booking/booking.php:51
+#: includes/trip-widgets/booking/controls.php:179
+#: includes/trip-widgets/booking/demo.php:11
+msgid "Check Availability"
+msgstr ""
+
+#: includes/trip-widgets/booking/booking.php:52
+#: includes/trip-widgets/booking/demo.php:12
+msgid "Need help with booking?"
+msgstr ""
+
+#: includes/trip-widgets/booking/booking.php:53
+msgid "check"
+msgstr ""
+
+#: includes/trip-widgets/booking/booking.php:67
+msgid "Hide Prices"
+msgstr ""
+
+#: includes/trip-widgets/booking/booking.php:70
+#: includes/trip-widgets/booking/demo.php:27
+msgid "Show Prices"
+msgstr ""
+
+#: includes/trip-widgets/booking/booking.php:89
+msgid "Group Discount Available"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:18
+msgid "Unbeatable Value Assurance"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:19
+msgid "Discover extraordinary adventures"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:22
+msgid "Effortless Reservation Process"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:23
+msgid "No booking hassles"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:26
+msgid "Transparent Pricing, Zero Surprises"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:27
+msgid "No hidden costs"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:30
+msgid "Expertise Beyond Measure"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:31
+msgid "Team of seasoned experts"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:34
+msgid "Your Joy, Our Priority"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:35
+msgid "Happiness Commitment"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:176
+#: includes/trip-widgets/booking/controls.php:235
+#: includes/trip-widgets/breadcrumbs/controls.php:115
+#: includes/trip-widgets/enquiry/controls.php:71
+#: includes/trip-widgets/enquiry/controls.php:120
+#: includes/trip-widgets/faqs/controls.php:145
+#: includes/trip-widgets/fixedstartingdate/controls.php:198
+#: includes/trip-widgets/highlights/controls.php:87
+#: includes/trip-widgets/itinerary/controls.php:262
+#: includes/trip-widgets/map/controls.php:126
+#: includes/trip-widgets/overview/controls.php:62
+#: includes/trip-widgets/ratings/controls.php:78
+#: includes/trip-widgets/relatedtrips/controls.php:549
+#: includes/trip-widgets/reviewform/controls.php:116
+#: includes/trip-widgets/reviewform/controls.php:169
+#: includes/trip-widgets/reviews/controls.php:162
+#: includes/trip-widgets/title/controls.php:74
+#: includes/widgets/terms/controls.php:180
+#: includes/widgets/trip-search/controls.php:90
+#: includes/widgets/trips/controls.php:241
+msgid "General"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:181
+msgid "Availability Text"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:186
+msgid "Highlight Content"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:187
+msgid ""
+"Note: To change tooltip content switch to text editor and change content of "
+"data-title attribute."
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:191
+msgid ""
+"<span>Need help with booking?</span> <a "
+"href=\"#wte_enquiry_form_scroll_wrapper\" "
+"id=\"wte-send-enquiry-message\">Send Us A Message</a>"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:193
+msgid "Enquiry Text"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:202
+msgid "Show Price"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:207
+msgid "Show Discount"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:212
+msgid "Show Group Discount"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:217
+msgid "Show Highlights"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:222
+msgid "Show Availability Button"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:227
+msgid "Show Inquiry Content"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:244
+#: includes/trip-widgets/booking/controls.php:323
+#: includes/trip-widgets/booking/controls.php:338
+#: includes/trip-widgets/booking/controls.php:358
+#: includes/trip-widgets/booking/controls.php:380
+#: includes/trip-widgets/booking/controls.php:414
+#: includes/trip-widgets/booking/controls.php:445
+#: includes/trip-widgets/breadcrumbs/controls.php:124
+#: includes/trip-widgets/carousel/controls.php:276
+#: includes/trip-widgets/carousel/controls.php:307
+#: includes/trip-widgets/costexcludes/controls.php:48
+#: includes/trip-widgets/costexcludes/controls.php:73
+#: includes/trip-widgets/costincludes/controls.php:48
+#: includes/trip-widgets/costincludes/controls.php:73
+#: includes/trip-widgets/enquiry/controls.php:129
+#: includes/trip-widgets/enquiry/controls.php:150
+#: includes/trip-widgets/enquiry/controls.php:205
+#: includes/trip-widgets/enquiry/controls.php:236
+#: includes/trip-widgets/facts/controls.php:98
+#: includes/trip-widgets/facts/controls.php:114
+#: includes/trip-widgets/facts/controls.php:125
+#: includes/trip-widgets/faqs/controls.php:154
+#: includes/trip-widgets/faqs/controls.php:203
+#: includes/trip-widgets/faqs/controls.php:239
+#: includes/trip-widgets/faqs/controls.php:273
+#: includes/trip-widgets/faqs/controls.php:307
+#: includes/trip-widgets/fixedstartingdate/controls.php:207
+#: includes/trip-widgets/fixedstartingdate/controls.php:285
+#: includes/trip-widgets/fixedstartingdate/controls.php:316
+#: includes/trip-widgets/fixedstartingdate/controls.php:375
+#: includes/trip-widgets/fixedstartingdate/controls.php:406
+#: includes/trip-widgets/fixedstartingdate/controls.php:442
+#: includes/trip-widgets/highlights/controls.php:96
+#: includes/trip-widgets/itinerary/controls.php:271
+#: includes/trip-widgets/itinerary/controls.php:315
+#: includes/trip-widgets/itinerary/controls.php:351
+#: includes/trip-widgets/itinerary/controls.php:378
+#: includes/trip-widgets/itinerary/controls.php:406
+#: includes/trip-widgets/itinerary/controls.php:464
+#: includes/trip-widgets/ratings/controls.php:87
+#: includes/trip-widgets/relatedtrips/controls.php:777
+#: includes/trip-widgets/relatedtrips/controls.php:788
+#: includes/trip-widgets/relatedtrips/controls.php:814
+#: includes/trip-widgets/relatedtrips/controls.php:842
+#: includes/trip-widgets/relatedtrips/controls.php:853
+#: includes/trip-widgets/relatedtrips/controls.php:931
+#: includes/trip-widgets/relatedtrips/controls.php:946
+#: includes/trip-widgets/relatedtrips/controls.php:961
+#: includes/trip-widgets/relatedtrips/controls.php:977
+#: includes/trip-widgets/relatedtrips/controls.php:1010
+#: includes/trip-widgets/relatedtrips/controls.php:1041
+#: includes/trip-widgets/relatedtrips/controls.php:1099
+#: includes/trip-widgets/relatedtrips/controls.php:1110
+#: includes/trip-widgets/relatedtrips/controls.php:1129
+#: includes/trip-widgets/reviewform/controls.php:178
+#: includes/trip-widgets/reviewform/controls.php:212
+#: includes/trip-widgets/reviewform/controls.php:233
+#: includes/trip-widgets/reviewform/controls.php:288
+#: includes/trip-widgets/reviewform/controls.php:319
+#: includes/trip-widgets/reviews/controls.php:183
+#: includes/trip-widgets/reviews/controls.php:272
+#: includes/trip-widgets/reviews/controls.php:321
+#: includes/trip-widgets/reviews/controls.php:348
+#: includes/trip-widgets/reviews/controls.php:370
+#: includes/widgets/terms/controls.php:304
+#: includes/widgets/terms/controls.php:315
+#: includes/widgets/terms/controls.php:346
+#: includes/widgets/terms/controls.php:566
+#: includes/widgets/terms/controls.php:597
+#: includes/widgets/trip-search/controls.php:136
+#: includes/widgets/trip-search/controls.php:244
+#: includes/widgets/trip-search/controls.php:275
+#: includes/widgets/trips/controls.php:469
+#: includes/widgets/trips/controls.php:480
+#: includes/widgets/trips/controls.php:506
+#: includes/widgets/trips/controls.php:534
+#: includes/widgets/trips/controls.php:545
+#: includes/widgets/trips/controls.php:623
+#: includes/widgets/trips/controls.php:638
+#: includes/widgets/trips/controls.php:653
+#: includes/widgets/trips/controls.php:669
+#: includes/widgets/trips/controls.php:702
+#: includes/widgets/trips/controls.php:733
+#: includes/widgets/trips/controls.php:791
+#: includes/widgets/trips/controls.php:802
+#: includes/widgets/trips/controls.php:821
+msgid "Color"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:249
+#: includes/trip-widgets/booking/controls.php:287
+#: includes/trip-widgets/booking/controls.php:469
+#: includes/trip-widgets/duration/controls.php:100
+#: includes/trip-widgets/duration/controls.php:183
+#: includes/trip-widgets/enquiry/controls.php:170
+#: includes/trip-widgets/enquiry/controls.php:260
+#: includes/trip-widgets/faqs/controls.php:159
+#: includes/trip-widgets/faqs/controls.php:207
+#: includes/trip-widgets/faqs/controls.php:243
+#: includes/trip-widgets/faqs/controls.php:277
+#: includes/trip-widgets/fixedstartingdate/controls.php:261
+#: includes/trip-widgets/fixedstartingdate/controls.php:351
+#: includes/trip-widgets/fixedstartingdate/controls.php:436
+#: includes/trip-widgets/highlights/controls.php:127
+#: includes/trip-widgets/itinerary/controls.php:292
+#: includes/trip-widgets/itinerary/controls.php:320
+#: includes/trip-widgets/itinerary/controls.php:383
+#: includes/trip-widgets/itinerary/controls.php:411
+#: includes/trip-widgets/map/controls.php:157
+#: includes/trip-widgets/map/controls.php:175
+#: includes/trip-widgets/overview/controls.php:102
+#: includes/trip-widgets/relatedtrips/controls.php:634
+#: includes/trip-widgets/relatedtrips/controls.php:818
+#: includes/trip-widgets/relatedtrips/controls.php:1065
+#: includes/trip-widgets/reviewform/controls.php:183
+#: includes/trip-widgets/reviewform/controls.php:253
+#: includes/trip-widgets/reviewform/controls.php:343
+#: includes/trip-widgets/reviews/controls.php:171
+#: includes/trip-widgets/reviews/controls.php:266
+#: includes/trip-widgets/reviews/controls.php:293
+#: includes/trip-widgets/reviews/controls.php:342
+#: includes/trip-widgets/reviews/controls.php:364
+#: includes/trip-widgets/title/controls.php:98
+#: includes/widgets/terms/controls.php:208
+#: includes/widgets/terms/controls.php:323
+#: includes/widgets/terms/controls.php:366
+#: includes/widgets/terms/controls.php:548
+#: includes/widgets/trip-search/controls.php:109
+#: includes/widgets/trip-search/controls.php:189
+#: includes/widgets/trip-search/controls.php:226
+#: includes/widgets/trips/controls.php:326
+#: includes/widgets/trips/controls.php:510
+#: includes/widgets/trips/controls.php:757
+msgid "Padding"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:255
+#: includes/trip-widgets/booking/controls.php:300
+#: includes/trip-widgets/booking/controls.php:475
+#: includes/trip-widgets/costexcludes/controls.php:52
+#: includes/trip-widgets/costincludes/controls.php:52
+#: includes/trip-widgets/enquiry/controls.php:176
+#: includes/trip-widgets/enquiry/controls.php:266
+#: includes/trip-widgets/faqs/controls.php:165
+#: includes/trip-widgets/faqs/controls.php:214
+#: includes/trip-widgets/faqs/controls.php:250
+#: includes/trip-widgets/faqs/controls.php:284
+#: includes/trip-widgets/fixedstartingdate/controls.php:235
+#: includes/trip-widgets/fixedstartingdate/controls.php:267
+#: includes/trip-widgets/fixedstartingdate/controls.php:357
+#: includes/trip-widgets/highlights/controls.php:133
+#: includes/trip-widgets/itinerary/controls.php:298
+#: includes/trip-widgets/itinerary/controls.php:326
+#: includes/trip-widgets/itinerary/controls.php:361
+#: includes/trip-widgets/itinerary/controls.php:389
+#: includes/trip-widgets/itinerary/controls.php:417
+#: includes/trip-widgets/map/controls.php:163
+#: includes/trip-widgets/map/controls.php:181
+#: includes/trip-widgets/overview/controls.php:108
+#: includes/trip-widgets/ratings/controls.php:126
+#: includes/trip-widgets/relatedtrips/controls.php:640
+#: includes/trip-widgets/relatedtrips/controls.php:796
+#: includes/trip-widgets/relatedtrips/controls.php:896
+#: includes/trip-widgets/relatedtrips/controls.php:1071
+#: includes/trip-widgets/relatedtrips/controls.php:1133
+#: includes/trip-widgets/reviewform/controls.php:195
+#: includes/trip-widgets/reviewform/controls.php:259
+#: includes/trip-widgets/reviewform/controls.php:349
+#: includes/trip-widgets/reviews/controls.php:177
+#: includes/trip-widgets/reviews/controls.php:307
+#: includes/trip-widgets/title/controls.php:103
+#: includes/widgets/terms/controls.php:214
+#: includes/widgets/terms/controls.php:330
+#: includes/widgets/trip-search/controls.php:195
+#: includes/widgets/trips/controls.php:332
+#: includes/widgets/trips/controls.php:488
+#: includes/widgets/trips/controls.php:588
+#: includes/widgets/trips/controls.php:763
+#: includes/widgets/trips/controls.php:825
+msgid "Margin"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:265
+#: includes/trip-widgets/booking/controls.php:363
+#: includes/trip-widgets/booking/controls.php:385
+#: includes/trip-widgets/booking/controls.php:423
+#: includes/trip-widgets/booking/controls.php:454
+#: includes/trip-widgets/carousel/controls.php:285
+#: includes/trip-widgets/carousel/controls.php:316
+#: includes/trip-widgets/duration/controls.php:123
+#: includes/trip-widgets/duration/controls.php:154
+#: includes/trip-widgets/duration/controls.php:206
+#: includes/trip-widgets/duration/controls.php:237
+#: includes/trip-widgets/enquiry/controls.php:159
+#: includes/trip-widgets/enquiry/controls.php:214
+#: includes/trip-widgets/enquiry/controls.php:245
+#: includes/trip-widgets/fixedstartingdate/controls.php:294
+#: includes/trip-widgets/fixedstartingdate/controls.php:325
+#: includes/trip-widgets/fixedstartingdate/controls.php:384
+#: includes/trip-widgets/fixedstartingdate/controls.php:415
+#: includes/trip-widgets/fixedstartingdate/controls.php:456
+#: includes/trip-widgets/highlights/controls.php:153
+#: includes/trip-widgets/itinerary/controls.php:286
+#: includes/trip-widgets/map/controls.php:144
+#: includes/trip-widgets/overview/controls.php:128
+#: includes/trip-widgets/relatedtrips/controls.php:574
+#: includes/trip-widgets/relatedtrips/controls.php:600
+#: includes/trip-widgets/relatedtrips/controls.php:717
+#: includes/trip-widgets/relatedtrips/controls.php:1019
+#: includes/trip-widgets/relatedtrips/controls.php:1050
+#: includes/trip-widgets/reviewform/controls.php:242
+#: includes/trip-widgets/reviewform/controls.php:297
+#: includes/trip-widgets/reviewform/controls.php:328
+#: includes/widgets/terms/controls.php:241
+#: includes/widgets/terms/controls.php:276
+#: includes/widgets/terms/controls.php:360
+#: includes/widgets/terms/controls.php:495
+#: includes/widgets/terms/controls.php:575
+#: includes/widgets/terms/controls.php:606
+#: includes/widgets/trip-search/controls.php:124
+#: includes/widgets/trip-search/controls.php:168
+#: includes/widgets/trip-search/controls.php:180
+#: includes/widgets/trip-search/controls.php:253
+#: includes/widgets/trip-search/controls.php:284
+#: includes/widgets/trips/controls.php:266
+#: includes/widgets/trips/controls.php:292
+#: includes/widgets/trips/controls.php:409
+#: includes/widgets/trips/controls.php:711
+#: includes/widgets/trips/controls.php:742
+msgid "Border Radius"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:283
+#: includes/trip-widgets/facts/controls.php:105
+#: includes/trip-widgets/relatedtrips/controls.php:805
+#: includes/widgets/trips/controls.php:497
+msgid "Content"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:315
+#: includes/trip-widgets/booking/controls.php:405
+#: includes/trip-widgets/carousel/controls.php:153
+#: includes/trip-widgets/carousel/controls.php:267
+#: includes/trip-widgets/duration/controls.php:109
+#: includes/trip-widgets/duration/controls.php:192
+#: includes/trip-widgets/enquiry/controls.php:196
+#: includes/trip-widgets/fixedstartingdate/controls.php:276
+#: includes/trip-widgets/fixedstartingdate/controls.php:366
+#: includes/trip-widgets/relatedtrips/controls.php:556
+#: includes/trip-widgets/relatedtrips/controls.php:655
+#: includes/trip-widgets/relatedtrips/controls.php:773
+#: includes/trip-widgets/relatedtrips/controls.php:838
+#: includes/trip-widgets/relatedtrips/controls.php:923
+#: includes/trip-widgets/relatedtrips/controls.php:1001
+#: includes/trip-widgets/relatedtrips/controls.php:1095
+#: includes/trip-widgets/relatedtrips/controls.php:1259
+#: includes/trip-widgets/reviewform/controls.php:279
+#: includes/widgets/terms/controls.php:223
+#: includes/widgets/terms/controls.php:300
+#: includes/widgets/terms/controls.php:434
+#: includes/widgets/terms/controls.php:557
+#: includes/widgets/terms/controls.php:760
+#: includes/widgets/trip-search/controls.php:164
+#: includes/widgets/trip-search/controls.php:235
+#: includes/widgets/trips/controls.php:248
+#: includes/widgets/trips/controls.php:347
+#: includes/widgets/trips/controls.php:465
+#: includes/widgets/trips/controls.php:530
+#: includes/widgets/trips/controls.php:615
+#: includes/widgets/trips/controls.php:693
+#: includes/widgets/trips/controls.php:787
+#: includes/widgets/trips/controls.php:951
+msgid "Normal"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:330
+#: includes/trip-widgets/relatedtrips/controls.php:938
+#: includes/widgets/trips/controls.php:630
+msgid "Strikeout"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:371
+msgid "Group Discount"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:393
+#: includes/trip-widgets/carousel/controls.php:255
+#: includes/trip-widgets/enquiry/controls.php:184
+#: includes/trip-widgets/relatedtrips/controls.php:989
+#: includes/trip-widgets/reviewform/controls.php:267
+#: includes/widgets/terms/controls.php:539
+#: includes/widgets/trip-search/controls.php:217
+#: includes/widgets/trips/controls.php:681
+msgid "Button"
+msgstr ""
+
+#: includes/trip-widgets/booking/controls.php:436
+#: includes/trip-widgets/carousel/controls.php:185
+#: includes/trip-widgets/carousel/controls.php:298
+#: includes/trip-widgets/duration/controls.php:140
+#: includes/trip-widgets/duration/controls.php:223
+#: includes/trip-widgets/enquiry/controls.php:227
+#: includes/trip-widgets/fixedstartingdate/controls.php:307
+#: includes/trip-widgets/fixedstartingdate/controls.php:397
+#: includes/trip-widgets/relatedtrips/controls.php:582
+#: includes/trip-widgets/relatedtrips/controls.php:725
+#: includes/trip-widgets/relatedtrips/controls.php:784
+#: includes/trip-widgets/relatedtrips/controls.php:849
+#: includes/trip-widgets/relatedtrips/controls.php:1032
+#: includes/trip-widgets/relatedtrips/controls.php:1106
+#: includes/trip-widgets/relatedtrips/controls.php:1291
+#: includes/trip-widgets/reviewform/controls.php:310
+#: includes/widgets/terms/controls.php:249
+#: includes/widgets/terms/controls.php:311
+#: includes/widgets/terms/controls.php:503
+#: includes/widgets/terms/controls.php:588
+#: includes/widgets/terms/controls.php:792
+#: includes/widgets/trip-search/controls.php:266
+#: includes/widgets/trips/controls.php:274
+#: includes/widgets/trips/controls.php:417
+#: includes/widgets/trips/controls.php:476
+#: includes/widgets/trips/controls.php:541
+#: includes/widgets/trips/controls.php:724
+#: includes/widgets/trips/controls.php:798
+#: includes/widgets/trips/controls.php:983
+msgid "Hover"
+msgstr ""
+
+#: includes/trip-widgets/booking/demo.php:33
+msgid "20% Off"
+msgstr ""
+
+#: includes/trip-widgets/booking/demo.php:41
+#: includes/trip-widgets/booking/demo.php:57
+msgid "From"
+msgstr ""
+
+#: includes/trip-widgets/booking/demo.php:50
+msgid "/ Adult"
+msgstr ""
+
+#: includes/trip-widgets/booking/demo.php:66
+msgid "/ Child"
+msgstr ""
+
+#: includes/trip-widgets/booking/widget.php:54
+msgid "Trip - Booking"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/breadcrumbs.php:12
+msgid "Home"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:58
+msgid "Breadcrumb"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:61
+msgid "Separator"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:66
+msgid "."
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:70
+msgid "/"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:74
+msgid "-"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:78
+msgid "|"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:82
+#: includes/trip-widgets/relatedtrips/controls.php:864
+#: includes/widgets/trips/controls.php:556
+msgid "None"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:89
+msgid "Item Gap"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:129
+msgid "Hover Color"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:134
+msgid "Active Color"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/controls.php:139
+msgid "Separator Color"
+msgstr ""
+
+#: includes/trip-widgets/breadcrumbs/widget.php:54
+msgid "Trip - Breadcrumbs"
+msgstr ""
+
+#: includes/trip-widgets/carousel/carousel.php:106
+#: includes/trip-widgets/carousel/controls.php:119
+msgid "Gallery"
+msgstr ""
+
+#: includes/trip-widgets/carousel/carousel.php:144
+msgid "Video Gallery"
+msgstr ""
+
+#: includes/trip-widgets/carousel/carousel.php:151
+msgid "No Trip ID supplied. Gallery Unavailable."
+msgstr ""
+
+#: includes/trip-widgets/carousel/carousel.php:166
+msgid "Video"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:101
+msgid "Carousel Height"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:122
+msgid "Show Gallery Button"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:127
+msgid "Show Video Button"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:133
+msgid "Button Position"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:136
+#: includes/widgets/terms/controls.php:630
+msgid "Top Left"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:137
+#: includes/widgets/terms/controls.php:632
+msgid "Top Right"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:138
+#: includes/widgets/terms/controls.php:633
+msgid "Bottom Left"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:139
+#: includes/widgets/terms/controls.php:635
+msgid "Bottom Right"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:146
+msgid "Arrows"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:157
+#: includes/trip-widgets/carousel/controls.php:189
+#: includes/trip-widgets/relatedtrips/controls.php:1263
+#: includes/widgets/terms/controls.php:764
+#: includes/widgets/trips/controls.php:955
+msgid "Arrow Background Color"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:162
+#: includes/trip-widgets/carousel/controls.php:194
+#: includes/trip-widgets/relatedtrips/controls.php:1268
+#: includes/widgets/terms/controls.php:384
+#: includes/widgets/terms/controls.php:769
+#: includes/widgets/trip-search/controls.php:151
+#: includes/widgets/trips/controls.php:960
+msgid "Arrow Color"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:167
+#: includes/trip-widgets/carousel/controls.php:199
+#: includes/trip-widgets/relatedtrips/controls.php:1273
+#: includes/widgets/terms/controls.php:774
+#: includes/widgets/trips/controls.php:965
+msgid "Arrow Border"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:172
+#: includes/trip-widgets/carousel/controls.php:204
+#: includes/trip-widgets/relatedtrips/controls.php:1278
+#: includes/widgets/terms/controls.php:779
+#: includes/widgets/trips/controls.php:970
+msgid "Arrow Border Radius"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:179
+#: includes/trip-widgets/carousel/controls.php:211
+#: includes/trip-widgets/relatedtrips/controls.php:1285
+#: includes/widgets/terms/controls.php:786
+#: includes/widgets/trips/controls.php:977
+msgid "Arrow Box Shadow"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:219
+#: includes/trip-widgets/relatedtrips/controls.php:1222
+#: includes/widgets/terms/controls.php:390
+#: includes/widgets/terms/controls.php:723
+#: includes/widgets/trips/controls.php:914
+msgid "Arrow Size"
+msgstr ""
+
+#: includes/trip-widgets/carousel/controls.php:236
+#: includes/trip-widgets/relatedtrips/controls.php:1239
+#: includes/widgets/terms/controls.php:740
+#: includes/widgets/trips/controls.php:931
+msgid "Arrow Offset"
+msgstr ""
+
+#: includes/trip-widgets/carousel/widget.php:54
+msgid "Trip - Carousel"
+msgstr ""
+
+#: includes/trip-widgets/costexcludes/controls.php:33
+msgid "Trip Cost Excludes"
+msgstr ""
+
+#: includes/trip-widgets/costexcludes/controls.php:39
+#: includes/trip-widgets/costincludes/controls.php:39
+msgid "List Items"
+msgstr ""
+
+#: includes/trip-widgets/costexcludes/controls.php:69
+#: includes/trip-widgets/costincludes/controls.php:69
+#: includes/trip-widgets/facts/controls.php:121
+#: includes/trip-widgets/faqs/controls.php:303
+#: includes/trip-widgets/fixedstartingdate/controls.php:464
+#: includes/trip-widgets/ratings/controls.php:94
+#: includes/trip-widgets/reviewform/controls.php:357
+msgid "Icon"
+msgstr ""
+
+#: includes/trip-widgets/costexcludes/controls.php:78
+#: includes/trip-widgets/costincludes/controls.php:78
+#: includes/trip-widgets/facts/controls.php:130
+#: includes/trip-widgets/ratings/controls.php:114
+msgid "Size"
+msgstr ""
+
+#: includes/trip-widgets/costexcludes/controls.php:97
+#: includes/trip-widgets/costincludes/controls.php:97
+#: includes/widgets/terms/controls.php:408
+msgid "Custom Upload"
+msgstr ""
+
+#: includes/trip-widgets/costexcludes/widget.php:54
+msgid "Trip - Cost Excludes"
+msgstr ""
+
+#: includes/trip-widgets/costincludes/controls.php:33
+msgid "Trip Cost Includes/Excludes"
+msgstr ""
+
+#: includes/trip-widgets/costincludes/widget.php:54
+msgid "Trip - Cost Includes"
+msgstr ""
+
+#: includes/trip-widgets/duration/controls.php:72
+msgid "Trip Duration"
+msgstr ""
+
+#: includes/trip-widgets/duration/controls.php:81
+msgid "Display Style"
+msgstr ""
+
+#: includes/trip-widgets/duration/controls.php:85
+#: includes/trip-widgets/relatedtrips/controls.php:904
+#: includes/widgets/trips/controls.php:596
+msgid "Horizontal"
+msgstr ""
+
+#: includes/trip-widgets/duration/controls.php:113
+#: includes/trip-widgets/duration/controls.php:144
+#: includes/trip-widgets/duration/controls.php:196
+#: includes/trip-widgets/duration/controls.php:227
+#: includes/trip-widgets/title/controls.php:83
+msgid "Text Color"
+msgstr ""
+
+#: includes/trip-widgets/duration/widget.php:54
+msgid "Trip - Duration"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:74
+#: includes/trip-widgets/enquiry/enquiry.php:20
+msgid "You can send your enquiry via the form below."
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:76
+msgid "Enquiry Title"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:79
+#: includes/trip-widgets/enquiry/enquiry.php:21
+msgid "Send Email"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:81
+#: includes/trip-widgets/reviewform/controls.php:126
+msgid "Button Label"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:90
+#: includes/trip-widgets/reviewform/controls.php:135
+msgid "Hide Form Title"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:99
+#: includes/trip-widgets/reviewform/controls.php:154
+msgid "Hide Form Labels"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:108
+msgid "Hide Trip Name"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/controls.php:136
+#: includes/trip-widgets/reviewform/controls.php:219
+msgid "Form Fields"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/enquiry.php:35
+#: includes/trip-widgets/enquiry/enquiry.php:55
+msgid "Privacy Policy"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/enquiry.php:37
+#. translators: %s: privacy policy link.
+msgid "By contacting us, you agree to our <a href=\"%1$s\">Privacy Policy</a>"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/enquiry.php:51
+#. translators: %1$s: opening p tag, %2$s: closing p tag.
+msgid ""
+"%1$sPrivacy Policy page not set or not published, please check Admin "
+"Dashboard > Settings > Privacy.%2$s"
+msgstr ""
+
+#: includes/trip-widgets/enquiry/widget.php:54
+msgid "Trip - Enquiry"
+msgstr ""
+
+#: includes/trip-widgets/facts/controls.php:33
+msgid "Icon Controls"
+msgstr ""
+
+#: includes/trip-widgets/facts/controls.php:36
+msgid "Icon Position"
+msgstr ""
+
+#: includes/trip-widgets/facts/controls.php:40
+#: includes/trip-widgets/highlights/controls.php:104
+#: includes/trip-widgets/overview/controls.php:79
+#: includes/trip-widgets/relatedtrips/controls.php:618
+#: includes/trip-widgets/relatedtrips/controls.php:1343
+#: includes/trip-widgets/title/controls.php:54
+#: includes/widgets/terms/controls.php:192
+#: includes/widgets/terms/controls.php:844
+#: includes/widgets/trips/controls.php:310
+#: includes/widgets/trips/controls.php:1035
+msgid "Left"
+msgstr ""
+
+#: includes/trip-widgets/facts/controls.php:44
+msgid "Top"
+msgstr ""
+
+#: includes/trip-widgets/facts/controls.php:48
+#: includes/trip-widgets/highlights/controls.php:112
+#: includes/trip-widgets/overview/controls.php:87
+#: includes/trip-widgets/relatedtrips/controls.php:626
+#: includes/trip-widgets/relatedtrips/controls.php:1351
+#: includes/trip-widgets/title/controls.php:62
+#: includes/widgets/terms/controls.php:200
+#: includes/widgets/terms/controls.php:852
+#: includes/widgets/trips/controls.php:318
+#: includes/widgets/trips/controls.php:1043
+msgid "Right"
+msgstr ""
+
+#: includes/trip-widgets/facts/controls.php:57
+msgid "Number of columns"
+msgstr ""
+
+#: includes/trip-widgets/facts/controls.php:63
+msgid "Column Gap"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:27
+msgid "Best Season"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:28
+msgid "Departure City"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:29
+msgid "Altitude"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:30
+msgid "Walking Hours"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:39
+msgid "Spring and Autumn"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:42
+msgid "Kathmandu, Nepal"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:45
+msgid "2,800 meters to 5,364 meteres"
+msgstr ""
+
+#: includes/trip-widgets/facts/demo.php:48
+msgid "5 to 7 hours"
+msgstr ""
+
+#: includes/trip-widgets/facts/widget.php:52
+msgid "Trip - Facts"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:90
+msgid "Trip - FAQs"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:96
+#: includes/trip-widgets/itinerary/controls.php:122
+msgid "Show Title"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:102
+#: includes/trip-widgets/fixedstartingdate/controls.php:217
+#: includes/trip-widgets/itinerary/controls.php:130
+#: includes/trip-widgets/title/controls.php:37
+msgid "HTML Tag"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:105
+#: includes/trip-widgets/fixedstartingdate/controls.php:221
+#: includes/trip-widgets/itinerary/controls.php:133
+#: includes/trip-widgets/title/controls.php:41
+msgid "H1"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:106
+#: includes/trip-widgets/fixedstartingdate/controls.php:222
+#: includes/trip-widgets/itinerary/controls.php:134
+#: includes/trip-widgets/title/controls.php:42
+msgid "H2"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:107
+#: includes/trip-widgets/fixedstartingdate/controls.php:223
+#: includes/trip-widgets/itinerary/controls.php:135
+#: includes/trip-widgets/title/controls.php:43
+msgid "H3"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:108
+#: includes/trip-widgets/fixedstartingdate/controls.php:224
+#: includes/trip-widgets/itinerary/controls.php:136
+#: includes/trip-widgets/title/controls.php:44
+msgid "H4"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:109
+#: includes/trip-widgets/fixedstartingdate/controls.php:225
+#: includes/trip-widgets/itinerary/controls.php:137
+#: includes/trip-widgets/title/controls.php:45
+msgid "H5"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:110
+#: includes/trip-widgets/fixedstartingdate/controls.php:226
+#: includes/trip-widgets/itinerary/controls.php:138
+#: includes/trip-widgets/title/controls.php:46
+msgid "H6"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:127
+#: includes/trip-widgets/faqs/controls.php:139
+#: includes/trip-widgets/itinerary/controls.php:148
+#: includes/trip-widgets/itinerary/controls.php:168
+msgid "Expand All"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:130
+#: includes/trip-widgets/itinerary/controls.php:159
+msgid "Show Expand All"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:132
+#: includes/trip-widgets/itinerary/controls.php:124
+#: includes/trip-widgets/itinerary/controls.php:161
+#: includes/trip-widgets/itinerary/controls.php:253
+msgid "Show"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:133
+#: includes/trip-widgets/itinerary/controls.php:125
+#: includes/trip-widgets/itinerary/controls.php:162
+#: includes/trip-widgets/itinerary/controls.php:254
+msgid "Hide"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:137
+#: includes/trip-widgets/itinerary/controls.php:166
+msgid "Expand All Label"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:170
+msgid "Gap"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:230
+msgid "Faq Title"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:264
+msgid " Faq Content"
+msgstr ""
+
+#: includes/trip-widgets/faqs/controls.php:292
+msgid "Toogle"
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:12
+msgid "What is Everest Base Camp (EBC)?"
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:13
+msgid "How do I get to Everest Base Camp?"
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:14
+msgid "Do I need previous trekking experience to reach EBC?"
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:15
+msgid "When is the best time to trek to Everest Base Camp?"
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:18
+msgid ""
+"Everest Base Camp is the starting point for climbers attempting to summit "
+"Mount Everest, the highest peak in the world. It is located at an altitude "
+"of approximately 5,364 meters (17,598 feet) above sea level in the Khumbu "
+"region of Nepal."
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:19
+msgid ""
+"The most common way to reach Everest Base Camp is by trekking from Lukla, a "
+"small mountain airstrip in Nepal. You can take a flight from Kathmandu to "
+"Lukla and start your trek from there. The trek usually takes around 12-14 "
+"days round trip."
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:20
+msgid ""
+"While previous trekking experience can be helpful, it is not mandatory. The "
+"Everest Base Camp trek is challenging but can be undertaken by anyone with "
+"a good level of fitness and a strong determination to complete the journey."
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:21
+msgid ""
+"The best time for the Everest Base Camp trek is during the pre-monsoon "
+"(spring) season (March to May) and post-monsoon (autumn) season (September "
+"to November). During these months, the weather is relatively stable, and "
+"the skies are clear, providing breathtaking views of the Himalayas."
+msgstr ""
+
+#: includes/trip-widgets/faqs/demo.php:35
+msgid "FAQs"
+msgstr ""
+
+#: includes/trip-widgets/faqs/widget.php:55
+msgid "Trip - Faqs"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:20
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:18
+msgid "Join Our Fixed Trip Starting Date"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:149
+msgid "Title Label"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:156
+msgid "Table Headers"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:159
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:24
+msgid "TRIP DATES"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:161
+msgid "Date Label"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:164
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:25
+msgid "AVAILABILITY"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:166
+msgid "Availability Label"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:169
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:26
+msgid "PRICE"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:171
+msgid "Price Label"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:174
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:27
+msgid "SPACE LEFT"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:176
+msgid "Space Left Label"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:182
+msgid "Button Labels"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:185
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:29
+msgid "Load More"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:187
+msgid "Load More label"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:190
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:30
+msgid "Show Less"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:192
+msgid "Show Less label"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:230
+#: includes/trip-widgets/relatedtrips/controls.php:1087
+#: includes/widgets/trips/controls.php:779
+msgid "Title Color"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:252
+msgid "Book Now Button"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:342
+msgid "Loader Buttons"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:432
+msgid "Date Dropdown"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:468
+#: includes/trip-widgets/relatedtrips/controls.php:875
+#: includes/widgets/trip-search/controls.php:146
+#: includes/widgets/trips/controls.php:567
+msgid "Icon Color"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/controls.php:473
+#: includes/trip-widgets/itinerary/controls.php:439
+#: includes/trip-widgets/itinerary/controls.php:474
+msgid "Icon Size"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:61
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:62
+msgid "Choose a date&hellip;"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/fixedstartingdate.php:122
+msgid "No Fixed Departure Dates available."
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/widget.php:53
+msgid "Trip - Fixed Starting Date"
+msgstr ""
+
+#: includes/trip-widgets/fixedstartingdate/widget.php:104
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag.
+msgid ""
+"Trip - Fixed Starting Dates Widget requires WP Travel Engine - Trip Fixed "
+"Starting Dates Addon to work. %1$sGet Trip Fixed Starting Dates extension "
+"now%2$s."
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:18
+msgid "Spectacular views of Everest, Lhotse, Nuptse, and other towering peaks"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:21
+msgid "Exploring vibrant Sherpa culture and monasteries in Namche Bazaar"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:24
+msgid "Passing through the stunning Sagarmatha National Park"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:27
+msgid ""
+"Reaching Everest Base Camp at an altitude of about 5,364 meters (17,598 "
+"feet)"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:30
+msgid "Visiting the vantage point of Kala Patthar for sunrise views"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:33
+msgid "Immersing yourself in the warmth of local Sherpa hospitality"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:77
+msgid "Highlights"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:100
+#: includes/trip-widgets/overview/controls.php:75
+#: includes/trip-widgets/relatedtrips/controls.php:615
+#: includes/trip-widgets/title/controls.php:50
+#: includes/widgets/terms/controls.php:189
+#: includes/widgets/trips/controls.php:307
+msgid "Alignment"
+msgstr ""
+
+#: includes/trip-widgets/highlights/controls.php:108
+#: includes/trip-widgets/overview/controls.php:83
+#: includes/trip-widgets/relatedtrips/controls.php:622
+#: includes/trip-widgets/relatedtrips/controls.php:1347
+#: includes/trip-widgets/title/controls.php:58
+#: includes/widgets/terms/controls.php:196
+#: includes/widgets/terms/controls.php:848
+#: includes/widgets/trips/controls.php:314
+#: includes/widgets/trips/controls.php:1039
+msgid "Center"
+msgstr ""
+
+#: includes/trip-widgets/highlights/widget.php:54
+msgid "Trip - Highlights"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:139
+msgid "div"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:140
+msgid "span"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:141
+msgid "p"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:151
+msgid "Always Show All Itinerary"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:153
+msgid "Yes"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:154
+msgid "No"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:156
+msgid ""
+"Default: All hidden. Enable this option to always expand all itinerary on "
+"intial page load."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:174
+#: includes/trip-widgets/itinerary/controls.php:460
+msgid "Icons"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:177
+msgid "First Day Icon"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:194
+msgid "Last Day Icon"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:211
+msgid "Expand On Icon"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:228
+msgid "Expand Off Icon"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:251
+msgid "Show Chart"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:281
+msgid "Border"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:342
+msgid "Chart"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:369
+msgid "Days Title"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:397
+msgid "Days Content"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:425
+msgid "Toggle"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:429
+msgid "Expand All Toggle Color"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/controls.php:434
+msgid "Expand Icon Color"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:20
+msgid "Day 0"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:21
+msgid "Arrival in Kathmandu"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:22
+msgid "Kathmandu to Lukla, Trek to Phakding (2,652m)"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:23
+msgid "Phakding to Namche Bazaar (3,440m)"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:24
+msgid "Acclimatization Day in Namche Bazaar"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:25
+msgid "Namche Bazaar to Tengboche (3,870m)"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:26
+msgid "Tengboche to Dingboche (4,360m)"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:27
+msgid "Acclimatization Day in Dingboche"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:28
+msgid "Dingboche to Lobuche (4,940m)"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:29
+msgid "Lobuche to Gorak Shep (5,170m), Visit Everest Base Camp (5,364m)"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:30
+msgid "Gorak Shep to Kala Patthar (5,545m), Descend to Pheriche (4,371m)"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:31
+msgid "Pheriche to Namche Bazaar"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:32
+msgid "Namche Bazaar to Lukla"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:33
+msgid "Lukla to Kathmandu"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:34
+msgid "Departure from Kathmandu"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:37
+msgid "You haven't arrived yet!"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:38
+msgid "Arrive in Kathmandu, meet your trekking guide, and have a trip briefing."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:39
+msgid "Early morning flight to Lukla. Begin trekking towards Phakding."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:40
+msgid ""
+"Continue trekking along the Dudh Koshi River. Cross suspension bridges and "
+"ascend to Namche Bazaar."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:41
+msgid ""
+"Acclimatization hike to Everest View Hotel or Khumjung Village. Explore "
+"Namche Bazaar, its market, and monasteries."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:42
+msgid ""
+"Descend to the Dudh Koshi River and ascend through forests. Reach Tengboche "
+"with its famous monastery."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:43
+msgid ""
+"Descend through forests and cross the Imja Khola. Trek through Pangboche "
+"village and reach Dingboche."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:44
+msgid ""
+"Acclimatization hike to Nangkartshang Peak for panoramic views. Rest and "
+"prepare for higher altitudes."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:45
+msgid ""
+"Trek through Dughla and witness memorials for climbers. Ascend to Lobuche "
+"village."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:46
+msgid "Trek to Gorak Shep. Continue to Everest Base Camp."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:47
+msgid "Early morning hike to Kala Patthar for sunrise views. Descend to Pheriche."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:48
+msgid "Descend through Pangboche and Tengboche. Continue to Namche Bazaar."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:49
+msgid ""
+"Descend through forests and cross suspension bridges. Arrive in Lukla, "
+"reflecting on your journey."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:50
+msgid "Morning flight back to Kathmandu. Rest and relax or explore the city."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:51
+msgid ""
+"Depending on your departure time, you may have some free time for "
+"last-minute shopping or sightseeing before heading to the airport."
+msgstr ""
+
+#: includes/trip-widgets/itinerary/demo.php:119
+#: includes/trip-widgets/itinerary/itinerary.php:89
+#. translators: %s: Day number.
+msgid "Day %s : "
+msgstr ""
+
+#: includes/trip-widgets/itinerary/itinerary.php:187
+msgid "Day "
+msgstr ""
+
+#: includes/trip-widgets/itinerary/itinerary.php:290
+msgid "Breakfast"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/itinerary.php:291
+msgid "Lunch"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/itinerary.php:292
+msgid "Dinner"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/itinerary.php:336
+msgid "Close"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/widget.php:53
+msgid "Trip - Itinerary"
+msgstr ""
+
+#: includes/trip-widgets/itinerary/widget.php:124
+#: includes/trip-widgets/relatedtrips/widget.php:89
+msgid "Oops! No preview/output available for this widget."
+msgstr ""
+
+#: includes/trip-widgets/map/controls.php:52
+msgid "Map"
+msgstr ""
+
+#: includes/trip-widgets/map/controls.php:61
+msgid "Zoom"
+msgstr ""
+
+#: includes/trip-widgets/map/controls.php:77
+#: includes/trip-widgets/relatedtrips/controls.php:701
+#: includes/widgets/terms/controls.php:479
+#: includes/widgets/trips/controls.php:393
+msgid "Height"
+msgstr ""
+
+#: includes/trip-widgets/map/controls.php:113
+msgid "Show Image"
+msgstr ""
+
+#: includes/trip-widgets/map/controls.php:118
+msgid "Show Iframe"
+msgstr ""
+
+#: includes/trip-widgets/map/controls.php:153
+msgid "Iframe"
+msgstr ""
+
+#: includes/trip-widgets/map/controls.php:171
+#: includes/trip-widgets/relatedtrips/controls.php:648
+#: includes/widgets/terms/controls.php:427
+#: includes/widgets/trips/controls.php:340
+msgid "Image"
+msgstr ""
+
+#: includes/trip-widgets/map/widget.php:54
+msgid "Trip - Map"
+msgstr ""
+
+#: includes/trip-widgets/overview/controls.php:17
+msgid ""
+"Embark on a breathtaking journey to the iconic Everest Base Camp, a trek "
+"that offers stunning vistas, cultural experiences, and a chance to be up "
+"close with the world's highest peak. This adventure takes you through "
+"picturesque Himalayan landscapes, traditional Sherpa villages, and "
+"concludes at the base of Mount Everest itself."
+msgstr ""
+
+#: includes/trip-widgets/overview/controls.php:52
+msgid "Overview"
+msgstr ""
+
+#: includes/trip-widgets/overview/controls.php:71
+msgid "Text color"
+msgstr ""
+
+#: includes/trip-widgets/overview/widget.php:54
+msgid "Trip - Overview"
+msgstr ""
+
+#: includes/trip-widgets/ratings/controls.php:37
+msgid "Rating Controls"
+msgstr ""
+
+#: includes/trip-widgets/ratings/controls.php:40
+msgid "Star Gap"
+msgstr ""
+
+#: includes/trip-widgets/ratings/controls.php:62
+msgid "Hide Stars"
+msgstr ""
+
+#: includes/trip-widgets/ratings/controls.php:69
+msgid "Hide Text"
+msgstr ""
+
+#: includes/trip-widgets/ratings/controls.php:97
+#: includes/trip-widgets/reviewform/controls.php:360
+#: includes/trip-widgets/reviews/controls.php:199
+#: includes/widgets/trip-search/controls.php:94
+msgid "Primary Color"
+msgstr ""
+
+#: includes/trip-widgets/ratings/controls.php:105
+msgid "Seconday Color"
+msgstr ""
+
+#: includes/trip-widgets/ratings/demo.php:48
+msgid "5.0 - Based on"
+msgstr ""
+
+#: includes/trip-widgets/ratings/demo.php:50
+#: includes/trip-widgets/reviews/demo.php:59
+msgid "1 travel review"
+msgstr ""
+
+#: includes/trip-widgets/ratings/ratings.php:30
+#: includes/trip-widgets/ratings/widget.php:111
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag.
+msgid ""
+"Trip - Ratings Widget requires WP Travel Engine - Trip Reviews to work. "
+"%1$sGet Trip Reviews extension now%2$s."
+msgstr ""
+
+#: includes/trip-widgets/ratings/ratings.php:94
+msgid "Based on "
+msgstr ""
+
+#: includes/trip-widgets/ratings/widget.php:52
+msgid "Trip - Ratings"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:418
+msgid "Choose from the List"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:659
+#: includes/widgets/terms/controls.php:438
+#: includes/widgets/trips/controls.php:351
+msgid "Image Size"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:665
+#: includes/widgets/terms/controls.php:444
+#: includes/widgets/trips/controls.php:357
+msgid "Custom Image Size"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:673
+#: includes/widgets/terms/controls.php:451
+#: includes/widgets/trips/controls.php:365
+msgid "Object Fit"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:675
+#: includes/widgets/terms/controls.php:453
+#: includes/widgets/trips/controls.php:367
+msgid "Original"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:676
+#: includes/widgets/terms/controls.php:454
+#: includes/widgets/trips/controls.php:368
+msgid "Contain"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:677
+#: includes/widgets/terms/controls.php:455
+#: includes/widgets/trips/controls.php:369
+msgid "Cover"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:678
+#: includes/widgets/terms/controls.php:456
+#: includes/widgets/trips/controls.php:370
+msgid "Fill"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:685
+#: includes/widgets/terms/controls.php:463
+#: includes/widgets/trips/controls.php:377
+msgid "Width"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:729
+#: includes/widgets/terms/controls.php:507
+#: includes/widgets/trips/controls.php:421
+msgid "Animation Type"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:731
+#: includes/widgets/terms/controls.php:509
+#: includes/widgets/trips/controls.php:423
+msgid "Linear"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:732
+#: includes/widgets/terms/controls.php:510
+#: includes/widgets/trips/controls.php:424
+msgid "Ease"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:733
+#: includes/widgets/terms/controls.php:511
+#: includes/widgets/trips/controls.php:425
+msgid "Ease-in"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:734
+#: includes/widgets/terms/controls.php:512
+#: includes/widgets/trips/controls.php:426
+msgid "Ease-out"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:735
+#: includes/widgets/terms/controls.php:513
+#: includes/widgets/trips/controls.php:427
+msgid "Ease-in-out"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:736
+#: includes/widgets/terms/controls.php:514
+#: includes/widgets/trips/controls.php:428
+msgid "Step-start"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:737
+#: includes/widgets/terms/controls.php:515
+#: includes/widgets/trips/controls.php:429
+msgid "Step-end"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:738
+#: includes/widgets/terms/controls.php:516
+#: includes/widgets/trips/controls.php:430
+msgid "Initial"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:739
+#: includes/widgets/terms/controls.php:517
+#: includes/widgets/trips/controls.php:431
+msgid "Inherit"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:746
+#: includes/widgets/terms/controls.php:524
+#: includes/widgets/trips/controls.php:438
+msgid "Animation Duration (sec)"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:827
+#: includes/widgets/trips/controls.php:519
+msgid "Meta"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:858
+#: includes/widgets/trips/controls.php:550
+msgid "Link Text Decoration"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:861
+#: includes/widgets/trips/controls.php:553
+msgid "Underline"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:862
+#: includes/widgets/trips/controls.php:554
+msgid "Overline"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:863
+#: includes/widgets/trips/controls.php:555
+msgid "Line Through"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:880
+#: includes/widgets/trips/controls.php:572
+msgid "Space Between"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:902
+#: includes/widgets/trips/controls.php:594
+msgid "Direction"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:957
+#: includes/widgets/trips/controls.php:649
+msgid "Featured Tag"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:973
+#: includes/widgets/trips/controls.php:665
+msgid "Discount Tag"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1079
+#: includes/widgets/trips/controls.php:771
+msgid "Available Dates"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1121
+#: includes/widgets/trips/controls.php:813
+msgid "Rating"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1146
+#: includes/widgets/terms/controls.php:641
+#: includes/widgets/trips/controls.php:838
+msgid "Arrow Padding"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1152
+#: includes/widgets/terms/controls.php:653
+#: includes/widgets/trips/controls.php:844
+msgid "Prev Arrow"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1187
+#: includes/widgets/terms/controls.php:688
+#: includes/widgets/trips/controls.php:879
+msgid "Next Arrow"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1295
+#: includes/widgets/terms/controls.php:796
+#: includes/widgets/trips/controls.php:987
+msgid "Arrow Background Color Hover"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1300
+#: includes/widgets/terms/controls.php:801
+#: includes/widgets/trips/controls.php:992
+msgid "Arrow Color Hover"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1305
+#: includes/widgets/terms/controls.php:806
+#: includes/widgets/trips/controls.php:997
+msgid "Arrow Border Color Hover"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1310
+#: includes/widgets/terms/controls.php:811
+#: includes/widgets/trips/controls.php:1002
+msgid "Arrow Border Radius Hover"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1319
+#: includes/widgets/terms/controls.php:820
+#: includes/widgets/trips/controls.php:1011
+msgid "Pagination"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1320
+#: includes/widgets/terms/controls.php:821
+#: includes/widgets/trips/controls.php:1012
+msgid "Pagination."
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1324
+#: includes/widgets/terms/controls.php:825
+#: includes/widgets/trips/controls.php:1016
+msgid "Pagination Active Color"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1329
+#: includes/widgets/terms/controls.php:830
+#: includes/widgets/trips/controls.php:1021
+msgid "Pagination Color"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1333
+#: includes/widgets/terms/controls.php:834
+#: includes/widgets/trips/controls.php:1025
+msgid "Pagination Spacing"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/controls.php:1340
+#: includes/widgets/terms/controls.php:841
+#: includes/widgets/trips/controls.php:1032
+msgid "Pagination Alignment"
+msgstr ""
+
+#: includes/trip-widgets/relatedtrips/widget.php:53
+msgid "Trip - Related Trips"
+msgstr ""
+
+#: includes/trip-widgets/reviewform/controls.php:119
+#: includes/trip-widgets/reviewform/reviewform.php:10
+msgid "Write a Review."
+msgstr ""
+
+#: includes/trip-widgets/reviewform/controls.php:121
+msgid "Review Title"
+msgstr ""
+
+#: includes/trip-widgets/reviewform/controls.php:124
+#: includes/trip-widgets/reviewform/reviewform.php:11
+msgid "Submit"
+msgstr ""
+
+#: includes/trip-widgets/reviewform/controls.php:144
+msgid "Hide Form Info"
+msgstr ""
+
+#: includes/trip-widgets/reviewform/controls.php:367
+#: includes/trip-widgets/reviews/controls.php:207
+msgid "Secondary Color"
+msgstr ""
+
+#: includes/trip-widgets/reviewform/reviewform.php:12
+msgid "Overall Trip Rating"
+msgstr ""
+
+#: includes/trip-widgets/reviewform/reviewform.php:30
+#: includes/trip-widgets/reviewform/widget.php:119
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag.
+msgid ""
+"Trip - Review Form Widget requires WP Travel Engine - Trip Reviews to work. "
+"%1$sGet Trip Reviews extension now%2$s."
+msgstr ""
+
+#: includes/trip-widgets/reviewform/widget.php:52
+msgid "Trip - Review Form"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:104
+msgid "Hide Average Rating"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:111
+msgid "Hide Overall Rating"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:118
+msgid "Hide Reviews"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:125
+msgid "Hide Review User"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:132
+msgid "Hide Review Title"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:139
+msgid "Hide Review Content"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:146
+msgid "Hide Review Gallery"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:153
+msgid "Hide Date of Experience"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:195
+msgid "Stars"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:215
+msgid "5 Stars Rating Color"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:223
+msgid "4 Stars Rating Color"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:231
+msgid "3 Stars Rating Color"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:239
+msgid "2 Stars Rating Color"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:247
+msgid "1 Stars Rating Color"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:257
+msgid "Average Rating"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:284
+msgid "List Reviews"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:333
+msgid "Reviews Title"
+msgstr ""
+
+#: includes/trip-widgets/reviews/controls.php:355
+msgid "Reviews Content"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:23
+msgid "5.0"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:56
+msgid "- Based on"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:65
+msgid "Excellent"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:74
+msgid "Very Good"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:82
+msgid "Average"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:90
+msgid "Poor"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:98
+msgid "Terrible"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:112
+msgid "An Epic Himalayan Adventure!"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:144
+msgid "By Sarah Johnson"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:147
+msgid "from"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:148
+msgid "United States"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:150
+msgid "August 3, 2023"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:152
+msgid ""
+"I just returned from the Everest Base Camp trek, and WOW! It was absolutely "
+"breathtaking. The stunning Himalayan vistas, warm Sherpa hospitality, and "
+"the sense of accomplishment made it an unforgettable journey. Highly "
+"recommended!"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:161
+msgid "Date of Experience:"
+msgstr ""
+
+#: includes/trip-widgets/reviews/demo.php:162
+msgid "August 03, 2023"
+msgstr ""
+
+#: includes/trip-widgets/reviews/reviews.php:28
+#: includes/trip-widgets/reviews/widget.php:110
+#. translators: %1$s: opening anchor tag, %2$s: closing anchor tag.
+msgid ""
+"Trip - Reviews Widget requires WP Travel Engine - Trip Reviews to work. "
+"%1$sGet Trip Reviews extension now%2$s."
+msgstr ""
+
+#: includes/trip-widgets/reviews/widget.php:52
+msgid "Trip - Reviews"
+msgstr ""
+
+#: includes/trip-widgets/title/widget.php:54
+msgid "Trip - Title"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:258
+msgid "Overlay Color"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:338
+msgid "Count"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:375
+msgid "Arrow"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:379
+msgid "Enable/Disable"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:627
+msgid "Arrow Position"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:631
+msgid "Top Center"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:634
+msgid "Bottom Center"
+msgstr ""
+
+#: includes/widgets/terms/controls.php:647
+msgid "Arrow margin"
+msgstr ""
+
+#: includes/widgets/trip-search/controls.php:132
+msgid "Input"
+msgstr ""
+
+#: includes/widgets/trip-search/controls.php:176
+msgid "First Child"
+msgstr ""
+
+#: includes/widgets/trip-search/controls.php:201
+msgid "Item Spacing"
+msgstr ""
+
+#: wte-elementor-widgets.php:76
+#. translators: 1. WTE Extension Name 2. Link to WTE Plugin.
+msgid ""
+"%1$s requires the %2$s plugin to work. Please install and activate the "
+"latest version of all plugins first."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Travel Engine - Elementor Widgets"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://wordpress.org/plugins/wte-elementor-widgets"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"The plugin helps you to use Elementor to create a travel booking website. "
+"It seamlessly works with WP Travel Engine, the most popular travel booking "
+"plugin, to display trips/tours, destinations, activities, trip types and "
+"advanced search."
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://wptravelengine.com"
+msgstr ""
+
+#: includes/blocks/trips/layouts/layout-1.php:111
+#: includes/blocks/trips/layouts/layout-2.php:148
+#: includes/blocks/trips/layouts/layout-3.php:123
+#: includes/blocks/trips/layouts/layout-4.php:112
+#: includes/blocks/trips/layouts/layout-5.php:136
+msgctxt "trip duration"
+msgid "%1$d %2$s"
+msgid_plural "%1$d %3$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/blocks/trips/layouts/layout-1.php:118
+#: includes/blocks/trips/layouts/layout-2.php:155
+#: includes/blocks/trips/layouts/layout-3.php:130
+#: includes/blocks/trips/layouts/layout-4.php:119
+#: includes/blocks/trips/layouts/layout-5.php:143
+msgctxt "trip duration night"
+msgid "%1$d Night"
+msgid_plural "%1$d Nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-widget.php:91
+msgctxt "Image Size Control"
+msgid "Full"
+msgstr ""
+
+#: includes/class-widget.php:94
+msgctxt "Image Size Control"
+msgid "Custom"
+msgstr ""
+
+#: includes/class-widgets.php:635
+msgctxt "Taxonomy name"
+msgid "Show %s by"
+msgstr ""
+
+#: includes/class-widgets.php:636
+msgctxt "Taxonomy name"
+msgid "Choose %s"
+msgstr ""
+
+#: includes/class-widgets.php:730
+msgctxt "Filter Name"
+msgid "Show %s"
+msgstr ""
+
+#: includes/trip-widgets/duration/duration.php:32
+msgctxt "days"
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/trip-widgets/duration/duration.php:35
+msgctxt "hours"
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/trip-widgets/ratings/ratings.php:96
+msgctxt "review count"
+msgid "%s travel review"
+msgid_plural "%s travel reviews"
+msgstr[0] ""
+msgstr[1] ""

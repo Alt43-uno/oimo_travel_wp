@@ -1,0 +1,5 @@
+<wpml-config>
+<custom-fields>
+<custom-field action="copy">WTE_Fixed_Starting_Dates_setting</custom-field>
+</custom-fields>
+</wpml-config>

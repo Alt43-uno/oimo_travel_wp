@@ -1,0 +1,10 @@
+<?php
+do_action('wte_review_wrap_open');
+do_action('wte_trip_review_header');
+do_action('wte_average_review_wrap_open');
+do_action('wte_trip_average_rating');
+do_action('wte_average_review_wrap_close');
+do_action('wte_trip_overall_review');
+do_action('wte_trip_review_schema_json');
+do_action('wte_list_reviews');
+do_action('wte_review_wrap_close');

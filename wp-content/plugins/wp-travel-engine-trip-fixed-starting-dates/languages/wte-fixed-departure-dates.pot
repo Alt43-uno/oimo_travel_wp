@@ -1,0 +1,839 @@
+# Copyright (C) 2022 WP Travel Engine
+# This file is distributed under the GPL-2.0+.
+msgid ""
+msgstr ""
+"Project-Id-Version: WP Travel Engine - Trip Fixed Starting Dates 2.3.11\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-12-09 07:16:26+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2022-MO-DA HO:MI+ZONE\n"
+"Last-Translator: WP Travel Engine <info@codewing.co>\n"
+"Language-Team: \n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: ../../wp-travel-engine-trip-fixed-starting-dates\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#: admin/class-wte-fixed-departure-dates-admin.php:145
+msgid "Are you sure?"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:184
+#: admin/views/dates-config.php:58
+msgid "Trip Starting Date:"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:188
+#: admin/views/dates-config.php:62
+msgid "Trip End Date:"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:192
+#: admin/views/dates-config.php:67
+msgid "Trip Cost:"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:196
+#: admin/views/dates-config.php:71
+msgid "Trip Availability:"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:208
+#: admin/views/dates-config.php:87
+msgid "Number of Available Spot:"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:228
+msgid "Fixed Starting Dates Settings"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:230
+msgid "Show Fixed Trip Starts Dates section:"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:230
+#: includes/backend/settings/global-settings.php:20
+msgid ""
+"Check this if you want to enable fixed trip starting dates section between "
+"featured image/slider and trip content sections."
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:235
+msgid "Fixed Starting Dates Section Title:"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:235
+#: includes/backend/settings/global-settings.php:26
+msgid "Title for Fixed Starting Dates of the trip."
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:240
+msgid "Select the dates layout : "
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:240
+#: includes/backend/settings/global-settings.php:64
+msgid "Choose a dates list or months layout to display in taxonomy pages."
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:244
+#: includes/backend/settings/global-settings.php:46
+msgid "1. Show dates list"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:253
+#: includes/backend/settings/global-settings.php:55
+msgid "2. Show months list"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:271
+msgid "Hide Fixed Starting Dates"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:281
+msgid "Check the above checkbox to hide Dates field in the Trip Search Form."
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:336
+#: admin/class-wte-fixed-departure-dates-admin.php:337
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-dates.php:9
+msgid "Dates"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:368
+#: admin/class-wte-fixed-departure-dates-admin.php:513
+msgid "For all fixed departures, please insert valid cost."
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-admin.php:789
+#: admin/class-wte-fixed-departure-dates-meta.php:41
+#: public/class-wte-fixed-departure-dates-public.php:186
+#: public/class-wte-fixed-departure-dates-public.php:228
+msgid "Fixed Starting Dates"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-meta.php:21
+msgid "Trip Fixed Starting Dates Configuration"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-meta.php:47
+msgid "Usage"
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-meta.php:102
+msgid "For all fixed departures, ending date must be greater than starting date."
+msgstr ""
+
+#: admin/class-wte-fixed-departure-dates-meta.php:106
+msgid " For all fixed departures, please insert valid cost."
+msgstr ""
+
+#: admin/partials/recurring-temp.php:21 admin/partials/recurring.php:17
+msgid "Jan"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:22 admin/partials/recurring.php:18
+msgid "Feb"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:23 admin/partials/recurring.php:19
+msgid "Mar"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:24 admin/partials/recurring.php:20
+msgid "Apr"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:25 admin/partials/recurring.php:21
+msgid "May"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:26 admin/partials/recurring.php:22
+msgid "Jun"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:27 admin/partials/recurring.php:23
+msgid "Jul"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:28 admin/partials/recurring.php:24
+msgid "Aug"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:29 admin/partials/recurring.php:25
+msgid "Sep"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:30 admin/partials/recurring.php:26
+msgid "Oct"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:31 admin/partials/recurring.php:27
+msgid "Nov"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:32 admin/partials/recurring.php:28
+msgid "Dec"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:36 admin/partials/recurring.php:32
+msgid "Mon"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:37 admin/partials/recurring.php:33
+msgid "Tue"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:38 admin/partials/recurring.php:34
+msgid "Wed"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:39 admin/partials/recurring.php:35
+msgid "Thu"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:40 admin/partials/recurring.php:36
+msgid "Fri"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:41 admin/partials/recurring.php:37
+msgid "Sat"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:42 admin/partials/recurring.php:38
+msgid "Sun"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:48 admin/partials/recurring.php:44
+msgid "Select Recursion Type"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:51 admin/partials/recurring.php:47
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:92
+msgid "Daily"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:54 admin/partials/recurring.php:50
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:102
+msgid "Weekly"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:56 admin/partials/recurring.php:52
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:105
+msgid "Select Weekdays:"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:71 admin/partials/recurring.php:69
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:129
+msgid "Monthly"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:73 admin/partials/recurring.php:71
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:132
+msgid "Select Months:"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:88 admin/partials/recurring.php:88
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:153
+msgid "Yearly"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:92 admin/partials/recurring.php:92
+msgid "Recursion Limit"
+msgstr ""
+
+#: admin/partials/recurring-temp.php:115
+msgid "Recursion Summary"
+msgstr ""
+
+#: admin/partials/recurring.php:117
+msgid "Recursion Summary: "
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:52
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:29
+msgid "Section Title"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:53
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:34
+msgid "Enter Here"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:54
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:36
+msgid "Enter title for the Availability section."
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:60
+msgid "Fixed Departure Dates"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:65
+msgid "Available Spots"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:67
+#: admin/views/dates-config.php:13
+msgid ""
+"Set the default number of available spot to be filled automatically in each "
+"of the fixed dates."
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:70
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-dates.php:16
+msgid "Select Dates"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:72
+msgid "Pick Fixed Starting Dates"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:77
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-dates.php:24
+msgid "Add Dates"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:89
+#: includes/class-wte-fixed-departure-dates.php:287
+#: includes/class-wte-fixed-departure-dates.php:288
+msgid "Date"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:90
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:446
+#: templates/script-templates/tmpl-wte-fsd-all.php:9
+msgid "Price"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:91
+msgid "No. of available spots"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:92
+msgid "Availability label"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:93
+msgid "Recurring Time"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:118
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:183
+msgid "Start Date"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:127
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:192
+msgid "Price here..."
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:156
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:221
+msgid "Recurring Options"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:156
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:221
+msgid "Edit"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:234
+msgid "Apply Multi Pricing"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:245
+msgid ""
+"Check this if you want to enable multi pricing for all the fixed starting "
+"dates.\r\n"
+"\t\t\tThis overrides the prices stated in each date."
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:252
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:51
+msgid "Hide Fixed Trip Starts Dates section"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:262
+#: admin/views/dates-uses.php:15
+msgid ""
+"Check this if you want to disable fixed trip starting dates section between "
+"featured image/slider and trip content sections."
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:331
+msgid "To display fixed starting dates in page/post use the following "
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:331
+msgid "Shortcode."
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:334
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:342
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:105
+msgid "Copy"
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:339
+msgid "To display fixed starting dates in theme/template, please use below "
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:339
+msgid "PHP Funtion."
+msgstr ""
+
+#: admin/partials/wte-fixed-departure-dates-admin-display.php:348
+msgid "Save &amp; Continue"
+msgstr ""
+
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:25
+msgid "Date Settings"
+msgstr ""
+
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:66
+msgid ""
+"Check this if you want to disable fixed trip starting dates section between "
+"featured image/slider and trip\r\n"
+"\t\tcontent sections."
+msgstr ""
+
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:76
+msgid ""
+"To display fixed starting dates in page/post use the following "
+"%1$sShortcode.%2$s"
+msgstr ""
+
+#: admin/trip/edit/tab-pricing/tab-pricing__settings.php:93
+msgid ""
+"To display fixed starting dates in theme/template, please use below %1$sPHP "
+"Funtion.%2$s"
+msgstr ""
+
+#: admin/views/dates-config.php:13
+msgid "Number of Available Spot: "
+msgstr ""
+
+#: admin/views/dates-config.php:64
+msgid "Error: Ending date must be greater than Starting date!"
+msgstr ""
+
+#: admin/views/dates-config.php:104
+msgid "Selected Dates"
+msgstr ""
+
+#: admin/views/dates-config.php:116
+msgid "Apply Multi Pricing:"
+msgstr ""
+
+#: admin/views/dates-config.php:130
+msgid ""
+"Check this if you want to enable multi pricing for all the fixed starting "
+"dates. This overrides the prices stated in each date."
+msgstr ""
+
+#: admin/views/dates-uses.php:6
+msgid "Uses"
+msgstr ""
+
+#: admin/views/dates-uses.php:9
+msgid "Hide Fixed Trip Starts Dates section:"
+msgstr ""
+
+#: admin/views/dates-uses.php:17
+msgid "Display via Shortcode"
+msgstr ""
+
+#: admin/views/dates-uses.php:21
+msgid "Copy this Shortcode to display fixed departure dates in pages/posts => "
+msgstr ""
+
+#: admin/views/dates-uses.php:27
+msgid "Display via PHP Function"
+msgstr ""
+
+#: admin/views/dates-uses.php:31
+msgid "Copy the PHP Function below to display fixed departure dates in templates :"
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:10
+msgid "Show Fixed Trip Starts Dates section"
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:24
+msgid "Fixed Starting Dates Section Title"
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:30
+msgid "Hide dates layout from trip cards"
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:36
+msgid ""
+"Check this if you want to hide the availability section from the trip cards "
+"in homepage and archive pages."
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:41
+msgid "Select the dates layout"
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:68
+msgid "Number of Trip Dates"
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:70
+msgid ""
+"Use this option to set number of trip fixed starting dates to show in the "
+"homepage sections."
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:74
+msgid "Pagination Number"
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:76
+msgid ""
+"Use this option to set number of trip fixed starting dates to show per page "
+"in the date listings through shortcode and tabs."
+msgstr ""
+
+#: includes/backend/settings/global-settings.php:83
+msgid ""
+"Need to list all the Fixed Starting Dates? You can use this shortcode "
+"<b>%1$s</b> on a page/post/tab to display Fixed Starting Dates from all of "
+"your trips sorted by Months."
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-functions.php:404
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:473
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:641
+#: templates/table-row.php:16
+msgid "Guaranteed"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-functions.php:405
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:474
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:642
+msgid "Available"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-functions.php:406
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:475
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:643
+msgid "Limited"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:74
+msgid "Invalid nonce or noce is not present."
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:97
+msgid "Invalid Trip ID"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:443
+#: templates/script-templates/tmpl-wte-fsd-all.php:5
+msgid "From - To"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:444
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:68
+msgid "Trip"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:445
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:71
+#: templates/script-templates/tmpl-wte-fsd-all.php:7
+msgid "Duration"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:447
+#: templates/script-templates/tmpl-wte-fsd-all.php:8
+msgid "Availability"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:448
+msgid "Space left"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:498
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:664
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:92
+msgid "Book Now"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:499
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:665
+msgid "N/A"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:500
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:666
+#: templates/table-inner.php:35
+msgid "No Fixed Departure Dates available."
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:527
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:694
+msgid "Day"
+msgid_plural "Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:528
+msgid "Hour"
+msgid_plural "Hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:530
+#: includes/class-wte-fixed-departure-dates-shortcodes.php:696
+msgid "Night"
+msgid_plural "Nights"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/class-wte-fixed-departure-dates.php:235
+msgid "Available in the following months:"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates.php:235
+msgid "Available through out the year:"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates.php:254
+msgid "Next Departure"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates.php:260
+msgid "%s Available"
+msgstr ""
+
+#: includes/class-wte-fixed-departure-dates.php:395
+msgid "Choose Date"
+msgstr ""
+
+#: includes/helper-functions.php:82
+#. translators: %s template
+msgid "%s does not exist."
+msgstr ""
+
+#: includes/helper-functions.php:99
+msgid "action_args should not be overwritten when calling wte_fsd_get_template."
+msgstr ""
+
+#: public/class-wte-fixed-departure-dates-public.php:205
+#: public/class-wte-fixed-departure-dates-public.php:280
+#: public/class-wte-fixed-departure-dates-public.php:281
+#: templates/fsd-table.php:42 templates/fsd-table.php:43
+msgid "Choose a date&hellip;"
+msgstr ""
+
+#: public/class-wte-fixed-departure-dates-public.php:206
+msgid "Choose a date"
+msgstr ""
+
+#: public/class-wte-fixed-departure-dates-public.php:429
+msgid ""
+"Selected seats(%1$s) unavailable for this date. Maximum number of pax "
+"allowed is : %2$s."
+msgstr ""
+
+#: templates/fsd-table.php:32
+msgid "Join Our Fixed Trip Starting Date"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:27
+#: templates/table-inner.php:10 templates/table-row.php:23
+msgid "TRIP DATES"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:83
+#: templates/table-inner.php:11 templates/table-row.php:44
+msgid "AVAILABILITY"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:85
+msgid "%s Spaces Left"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:88
+#: templates/table-inner.php:12 templates/table-row.php:49
+msgid "PRICE"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:90
+msgid "per person"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all.php:6
+msgid "Trip Name"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:30
+msgid "Starting Date"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:50
+msgid "from"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:55
+msgid "to"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:61
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-times.php:31
+msgid "+ Add time"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:69
+msgid "Enable Repeat"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:164
+msgid "Repeat until"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:170
+msgid "Repeat Limit"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:207
+msgid "Total Seats"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:217
+msgid "Availability Label"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:227
+msgid "Save Changes"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-single.php:228
+msgid "Cancel"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-times.php:20
+msgid "From"
+msgstr ""
+
+#: templates/script-templates/trip-edit/tab-pricing/tmpl-wte-package-date-times.php:25
+msgid "To"
+msgstr ""
+
+#: templates/table-inner-advanced.php:23
+msgid "Filter By:"
+msgstr ""
+
+#: templates/table-inner-advanced.php:26
+msgid "By Year"
+msgstr ""
+
+#: templates/table-inner-advanced.php:28
+msgid "By all years"
+msgstr ""
+
+#: templates/table-inner-advanced.php:40
+msgid "By Month"
+msgstr ""
+
+#: templates/table-inner-advanced.php:42
+msgid "All available months"
+msgstr ""
+
+#: templates/table-inner.php:13 templates/table-row.php:59
+msgid "SPACE LEFT"
+msgstr ""
+
+#: templates/table-inner.php:51
+msgid "Load More"
+msgstr ""
+
+#: templates/table-inner.php:52
+msgid "Show Less"
+msgstr ""
+
+#: templates/table-row.php:69
+msgid "%1$s Available"
+msgstr ""
+
+#: templates/table-row.php:72
+msgid "sold out"
+msgstr ""
+
+#: templates/table-row.php:80
+msgid "Book Now "
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:228
+msgid "There is a new version of %1$s available. %2$sView version %3$s details%4$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:236
+msgid ""
+"There is a new version of %1$s available. %2$sView version %3$s details%4$s "
+"or %5$supdate now%6$s."
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:474
+msgid "You do not have permission to install plugin updates"
+msgstr ""
+
+#: updater/EDD_SL_Plugin_Updater.php:474
+msgid "Error"
+msgstr ""
+
+#: wte-fixed-departure-dates.php:88
+#. translators: 1. WTE Extension Name 2. Link to WTE Plugin.
+msgid ""
+"%1$s requires the %2$s plugin to work. Please install and activate the "
+"latest <strong>WP Travel Engine</strong> plugin first."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WP Travel Engine - Trip Fixed Starting Dates"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://wptravelengine.com/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"An extension for WP Travel Engine plugin to add trip fixed starting dates "
+"or Fixed Departure Dates (FDT)."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "WP Travel Engine"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:40
+#. translators: 1. Formated Date.
+msgctxt "All fixed departure listing Shortcode start date label."
+msgid "From %s"
+msgstr ""
+
+#: templates/script-templates/tmpl-wte-fsd-all-row.php:55
+#. translators: 1. Formated Date.
+msgctxt "All fixed departure listing Shortcode end date label."
+msgid "To %s"
+msgstr ""
+
+#: templates/table-inner-advanced.php:31
+msgctxt "Default FSD filter option"
+msgid "All available years"
+msgstr ""
+
+#: templates/table-inner-advanced.php:45
+msgctxt "Default FSD filter option"
+msgid "All available months"
+msgstr ""

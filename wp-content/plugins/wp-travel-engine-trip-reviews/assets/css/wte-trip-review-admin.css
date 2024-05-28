@@ -1,0 +1,366 @@
+/*write here*/
+#wpte-add-ons li{
+    list-style: none;
+    margin: 0 0 50px
+}
+
+.review-wrap{
+    padding: 40px;
+    background: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+#wpte-add-ons li .post-link{
+    font-size: 1.300em;
+    line-height: 1.2em;
+    font-weight: 700;
+    color: #000;
+    margin: 0 0 20px;
+}
+
+#wpte-add-ons li .post-link a{
+    text-decoration: none;
+}
+
+.review-wrap .comment-list{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.review-wrap .comment-list li{
+    overflow: hidden;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #E4E4E4;
+}
+
+.review-wrap .comment-author{
+    float: left;
+    width: 70px;
+    margin-right: 20px;
+}
+
+.review-wrap .comment-author img{
+    vertical-align: top;
+    width: 70px;
+    height: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.review-wrap .trip-comment-content{
+    overflow: hidden;
+}
+
+.review-wrap .trip-comment-content .comment-title{
+    font-size: 18px;
+    line-height: 1.300em;
+    font-weight: 700;
+    color: #000;
+    display: block;
+    margin: 0 0 6px;
+}
+
+.review-wrap .trip-comment-content .comment-rating{
+    font-size: 13px;
+    line-height: 1.750em;
+    color: #6E6E6E;
+}
+
+.review-wrap .trip-comment-content .comment-rating .url{
+    margin-right: 30px;
+}
+
+.review-wrap .trip-comment-content .comment-rating .url:before{
+    content: '';
+    margin-right: 5px;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236E6E6E' viewBox='0 0 448 512'%3E%3Cpath d='M224 256c70.7 0 128-57.3 128-128S294.7 0 224 0 96 57.3 96 128s57.3 128 128 128zm89.6 32h-16.7c-22.2 10.2-46.9 16-72.9 16s-50.6-5.8-72.9-16h-16.7C60.2 288 0 348.2 0 422.4V464c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48v-41.6c0-74.2-60.2-134.4-134.4-134.4z'/%3E%3C/svg%3E") center center no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 11px;
+}
+
+.review-wrap .trip-comment-content .comment-rating .comment-meta:before{
+    content: '';
+    margin-right: 5px;
+    background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%236E6E6E' viewBox='0 0 448 512'%3E%3Cpath d='M400 64h-48V12c0-6.6-5.4-12-12-12h-8c-6.6 0-12 5.4-12 12v52H128V12c0-6.6-5.4-12-12-12h-8c-6.6 0-12 5.4-12 12v52H48C21.5 64 0 85.5 0 112v352c0 26.5 21.5 48 48 48h352c26.5 0 48-21.5 48-48V112c0-26.5-21.5-48-48-48zM48 96h352c8.8 0 16 7.2 16 16v48H32v-48c0-8.8 7.2-16 16-16zm352 384H48c-8.8 0-16-7.2-16-16V192h384v272c0 8.8-7.2 16-16 16zM148 320h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm96 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm96 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-96 96h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm-96 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12zm192 0h-40c-6.6 0-12-5.4-12-12v-40c0-6.6 5.4-12 12-12h40c6.6 0 12 5.4 12 12v40c0 6.6-5.4 12-12 12z'/%3E%3C/svg%3E") center center no-repeat;
+    display: inline-block;
+    width: 15px;
+    height: 11px;
+}
+
+.review-wrap .trip-comment-content .comment-wte-trip-review-rating{
+    margin: 0;
+}
+
+.review-wrap .trip-comment-content .comment-content{
+    font-size: 15px;
+    line-height: 1.611em;
+}
+span.approved {
+    color: #388c6a;
+}
+span.not-approved {
+    color: #a21a1a;
+}
+span.actions a {
+    margin-right: 10px;
+}
+span.commenter-photo img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+/* div#trip-review-form{
+    display: none;
+} */
+
+/*=====================================
+ Trip Review Tab Style
+=====================================*/
+.trip-tabs-list:after{
+    display: block;
+    clear: both;
+    content: '';
+}
+
+.trip-tabs-list .trip-reviews{
+    float: left;
+}
+
+.trip-tabs-list .trip-reviews a,
+.trip-tabs-list .trip-review-form a{
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #555;
+    padding: 5px 10px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-bottom: 0;
+    margin-right: 6px;
+    font-size: 14px;
+    line-height: 24px;
+    background: #e5e5e5;
+    margin-bottom: -1px;
+}
+
+.trip-tabs-list .trip-reviews a:focus,
+.trip-tabs-list .trip-review-form a:focus{
+    box-shadow: none;
+}
+
+.trip-tabs-list .trip-reviews .nav-tab-active,
+.trip-tabs-list .trip-review-form .nav-tab-active{
+    background: #fff;
+}
+
+.trip-tab-content{
+    padding: 20px;
+    background: #fff;
+    border: 1px solid #ccc;
+}
+
+.trip-tab-content .trip-review .notice{
+    background: #f7f7f7;
+}
+
+.trip-tab-content .trip-review form{
+    max-width: 690px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+.trip-tab-content .trip-review form div{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0 0 20px;
+}
+
+.trip-tab-content .trip-review form div div{
+    margin: 0;
+}
+
+.trip-tab-content .trip-review form div label,
+.trip-tab-content .trip-review form div .comment-form-wte-trip-review-rating{
+    width: 80px;
+    margin-right: 10px;
+}
+
+.trip-tab-content .trip-review form div .comment-form-wte-trip-review-rating{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.trip-tab-content .trip-review .trip-review-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.trip-tab-content .trip-review .trip-review-list li{
+    width: 48%;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 4px; 
+    box-sizing: border-box;
+    margin-right: 2% !important;
+}
+
+.trip-tab-content .trip-review .trip-review-list li:nth-child(2n){
+    margin-right: 0 !important;
+}
+
+.trip-tab-content .trip-review .trip-review-list li .review-wrap{
+    padding: 0;
+    border: 0;
+    border-radius: 0;
+}
+
+.trip-tab-content .trip-review form div.image-upload-wrap {
+    display: block;
+}
+.commenter-photo img {
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    object-fit: cover;
+}
+#remove-btn{
+    display: none;
+}
+.success .dashicons-no-alt{
+    float: right;
+    color: #ec5454;
+    cursor: pointer;
+}
+#the-comment-list td.comment img{
+    height:16px;
+}
+
+.trip-tab-content .trip-review form .commenter-photo, 
+.commenter-photo {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.trip-tab-content .trip-review form .trip-review-img-gallery-add + div {
+    display: block;
+    width: 100%;
+}
+
+.trip-tab-content .trip-review form .wte-trip-review-gallery, 
+.wte-trip-review-gallery {
+    width: 100%;
+    margin-top: 0;
+    margin-left: -5px;
+    margin-bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.trip-tab-content .trip-review form .wte-trip-review-gallery li, 
+.wte-trip-review-gallery li {
+    margin: 20px 0 0 0 !important;
+    padding: 5px;
+}
+
+.trip-tab-content .trip-review form .wte-trip-review-gallery li .trip-gallery-img-action, 
+.wte-trip-review-gallery li .trip-gallery-img-action {
+    margin-bottom: 0;
+    margin-top: 10px;
+}
+
+.trip-tab-content .trip-review form .wte-trip-review-gallery li img, 
+.wte-trip-review-gallery li img {
+    cursor: grab;
+}
+
+.trip-tab-content .trip-review form .wte-trip-review-gallery li a, 
+.wte-trip-review-gallery li a {
+    display: inline-block;
+    width: 30px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #191919;
+    overflow: hidden;
+    text-indent: 40px;
+    opacity: 0.25;
+    filter: alpha(opacity=25);
+    background-color: #fff;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="13.94" height="13.94" viewBox="0 0 13.94 13.94"><path fill="%23191919" d="M9.97,3A6.978,6.978,0,0,0,3,9.97H4.549a5.408,5.408,0,0,1,9.245-3.824L11.519,8.421H16.94V3L14.883,5.057A6.912,6.912,0,0,0,9.97,3Zm5.421,6.97a5.408,5.408,0,0,1-9.245,3.824l2.275-2.275H3V16.94l2.057-2.057A6.948,6.948,0,0,0,16.94,9.97Z" transform="translate(-3 -3)"/></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trip-tab-content .trip-review form .wte-trip-review-gallery li .wte-tr-remove-image, 
+.wte-trip-review-gallery li .wte-tr-remove-image {
+    margin-left: 5px;
+    background-image: url('data:image/svg+xml; utf-8, <svg xmlns="http://www.w3.org/2000/svg" width="13.549" height="18.065" viewBox="0 0 13.549 18.065"><g transform="translate(-132.5 -10)"><path d="M146.049,12.319h-3.764v-.94A1.378,1.378,0,0,0,140.906,10h-3.268a1.376,1.376,0,0,0-1.373,1.379v.94H132.5v.691h.992l1.11,13.676a1.378,1.378,0,0,0,1.379,1.379h6.633a1.378,1.378,0,0,0,1.379-1.379l1.1-13.676h.96Zm-9.1-.94a.691.691,0,0,1,.688-.691h3.27a.688.688,0,0,1,.688.691v.94H136.95ZM143.3,26.65v.037a.691.691,0,0,1-.688.691h-6.633a.688.688,0,0,1-.688-.691V26.65l-1.115-13.638H144.4Z" transform="translate(0 0)" fill="%23191919"/><path d="M482.1,255h.723v12.466H482.1Z" transform="translate(-343.188 -241.83)" fill="%23191919"/><path d="M600.009,255h-.756l-.553,12.466h.756Z" transform="translate(-457.688 -241.83)" fill="%23191919"/><path d="M337.45,255h-.75l.553,12.466h.756Z" transform="translate(-200.472 -241.83)" fill="%23191919"/></g></svg>');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.trip-tab-content .trip-review form .wte-trip-review-gallery li a:hover, 
+.wte-trip-review-gallery li a:hover {
+    opacity: 0.65;
+    filter: alpha(opacity=65);
+}
+
+.trip-tab-content .trip-review form div label, 
+.trip-tab-content .trip-review form div .comment-form-wte-trip-review-rating {
+    font-weight: 600;
+}
+
+.meta-trip-review-title, 
+.meta-trip-review-rates, 
+.meta-trip-review-experiance-date, 
+.meta-trip-review-client-location {
+    display: inline-block;
+    margin-top: 20px;
+    margin-bottom: 0;
+    font-weight: 600;
+    width: 100px;
+    vertical-align: middle;
+}
+
+.image-upload-wrap label, 
+.meta-review-client-location {
+    font-weight: 600;
+}
+
+.wte-trip-review-title, 
+.wte-trip-review-rating, 
+.wte-trip-review-experience-date, 
+.wte-trip-review-client-location {
+    display: inline-block;
+    margin-top: 20px;
+    vertical-align: middle;
+}
+
+.wte-trip-review-rating label, .wte-trip-review-rating input {
+    display: inline-block;
+    vertical-align: middle;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.wte-trip-review-rating .stars {
+    margin-right: 15px;
+}
+
+.wp-travel-engine-fields-settings.review .wte-tr-checkwrap input[type="checkbox"] {
+    opacity: 0;
+    visibility:none;
+}
+@media only screen and (max-width: 767px){
+    .trip-tab-content .trip-review .trip-review-list li{
+        width: 100%;
+        margin-right: 0 !important;
+    }
+}

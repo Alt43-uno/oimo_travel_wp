@@ -1,0 +1,1145 @@
+/**
+ * All of the CSS for your public-facing functionality should be
+ * included in this file.
+ */
+
+.wte-user-input {
+  margin: 0 0 30px;
+}
+
+/*table style*/
+
+.dd-list table {
+  border: 1px solid #ccc;
+}
+
+.dd-list table th,
+.dd-list table td {
+  padding: 10px;
+}
+
+.dd-list table th {
+  background: #e5e5e5;
+}
+
+.dd-list table td {
+  font-size: 16px;
+  text-align: center;
+}
+
+.dd-list table tbody tr {
+  border-bottom: 1px solid #ccc;
+}
+
+.dd-list table tbody tr:last-child {
+  border-bottom: 0;
+}
+
+.dd-list table tbody .accordion-cost span {
+  display: block;
+}
+
+.dd-list table tbody .accordion-cost .fdd-cost-wrap span {
+  display: inline-block;
+}
+
+.dd-list table tbody td .book-btn {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 6px 12px;
+  text-align: center;
+  color: #636363;
+  -webkit-transition: linear 0.2s;
+  -moz-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+
+.dd-list table tbody td .book-btn:hover,
+.dd-list table tbody td .book-btn:focus {
+  text-decoration: none;
+  background: #ccc;
+  color: #000;
+}
+
+.status-style {
+  text-transform: capitalize;
+}
+
+.tool-tip {
+  cursor: pointer;
+  text-transform: capitalize;
+}
+
+.tool-tip-desc {
+  display: none;
+  background: #000;
+  color: #fff;
+  height: auto;
+  width: auto;
+  padding: 5px;
+}
+
+#nestable1 {
+  position: relative;
+}
+
+#loader,
+.loader {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 80%;
+  text-align: center;
+  font-size: 50px;
+}
+
+#loader .table,
+.loader .table {
+  display: table;
+  width: 100%;
+  height: 100%;
+}
+
+#loader .table-row,
+.loader .table-row {
+  display: table-row;
+}
+
+#loader .table-cell,
+.loader .table-cell {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.sold-out {
+  color: #dd3333;
+  font-size: 20px;
+  text-transform: capitalize;
+  vertical-align: middle;
+}
+
+/*tool tip css*/
+.dd-list table tbody .tool-tip-wrap {
+  position: relative;
+}
+
+.dd-list table tbody .tool-tip-wrap .trip-disc {
+  position: absolute;
+  top: -35px;
+  background: #000;
+  color: #fff;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 15px;
+  line-height: 18px;
+  padding: 5px;
+  right: -10px;
+  width: 200px;
+  display: none;
+}
+
+.dd-list table tbody .tool-tip-wrap:hover .trip-disc {
+  display: block;
+}
+
+.dd-list table tbody .tool-tip-wrap .trip-disc:after {
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 8px solid #000;
+  content: "";
+  position: absolute;
+  bottom: -8px;
+  right: 10px;
+}
+
+.dd-list table tbody .tool-tip-wrap .trip-discount {
+  background: #e5e5e5;
+  float: right;
+  margin: 5px -17px 0 0;
+  padding: 0 12px;
+  position: relative;
+}
+
+.dd-list table tbody .tool-tip-wrap .trip-discount:after {
+  border-right: 6px solid transparent;
+  border-top: 6px solid #bbb;
+  bottom: -6px;
+  content: "";
+  height: 0;
+  position: absolute;
+  right: 0;
+  width: 0;
+}
+
+.status-style {
+  color: #fff;
+  border-radius: 5px;
+}
+
+#nestable1 tbody tr {
+  display: none;
+}
+
+#showLess {
+  display: none;
+}
+
+#nestable1 .dd-list table {
+  text-align: left;
+}
+
+#nestable1 .dd-list table th,
+#nestable1 .dd-list table td {
+  padding: 15px;
+  text-align: left;
+  word-break: normal;
+}
+
+#nestable1 .dd-list table .fa {
+  margin-right: 8px;
+}
+
+#nestable1 .dd-list table td span {
+  display: inline-block;
+}
+
+.btn-more-dates {
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  display: inline-block;
+  font-size: 14px;
+  line-height: 17px;
+  padding: 6px 12px;
+  text-align: center;
+  color: #636363;
+  -webkit-transition: linear 0.2s;
+  -moz-transition: linear 0.2s;
+  transition: linear 0.2s;
+}
+
+.btn-more-dates:hover {
+  text-decoration: none;
+  background: #ccc;
+  color: #000;
+}
+
+.currency-code .fa {
+  -webkit-transform: rotate(90deg);
+  -moz-transform: rotate(90deg);
+  transform: rotate(90deg);
+}
+
+.wpte-bf-datepicker .ui-datepicker-current-day a.ui-state-active {
+  color: #155724 !important;
+  background-color: #d4edda !important;
+}
+
+.wte-fsd-list-header {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+}
+
+.wte-fsd-list-header .wte-user-input {
+  display: inline-block;
+}
+
+/* Widget design fixes */
+/* All fsd dates */
+.wpte-trips-fsd-table-wrapper table {
+  border-spacing: 0px 8px;
+}
+
+.wpte-trips-fsd-table-wrapper table thead tr {
+  padding: 10px;
+}
+
+#primary .post .entry-content table th,
+#primary .page .entry-content table th,
+#primary .post .entry-content table td,
+#primary .page .entry-content table td {
+  padding: 5px;
+}
+
+.wte-user-input .wet-user-input-date,
+.wte-user-input .wte-user-input-field {
+  margin: 0px;
+}
+
+.wte-user-input .wte-user-input-field label {
+  font-size: 18px;
+  line-height: 52px;
+  margin-right: .5rem;
+}
+
+.wte-user-input .wet-user-input-date select,
+.wte-user-input .wte-user-input-field select {
+  padding: 8px 115px 8px 8px;
+  /* appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none; */
+}
+
+.wte-user-input .wet-user-input-trip select {
+  padding: 8px 20px 8px 8px;
+}
+
+@media only screen and (min-width: 768px) {
+  #primary .page .entry-content table tbody .wte-fsd-row:hover {
+    background: #fafafa;
+  }
+
+  .wpte-trips-fsd-table-wrapper table thead tr td {
+    padding: 10px 15px !important;
+  }
+
+  .wpte-trips-fsd-table-wrapper table tbody tr td {
+    padding: 20px 0px;
+  }
+
+  .wpte-trips-fsd-table-wrapper table tbody .wte-fsd-row td {
+    padding: 5px 10px;
+  }
+
+  .wte-fsd-action {
+    margin: 12px 0px;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #primary .page .entry-content table tbody td {
+    display: block;
+    text-align: right;
+  }
+
+  #primary .page .entry-content table tbody .wte-fsd-row td:hover {
+    background: #fafafa;
+  }
+
+  .wte-fsd-row td {
+    padding: 8px;
+  }
+
+  /* Adding content using before selector */
+
+  #primary .post .entry-content table th,
+  #primary .page .entry-content table th,
+  #primary .post .entry-content table td,
+  #primary .page .entry-content table tbody .wte-fsd-row td:nth-child(1):before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #primary .post .entry-content table th,
+  #primary .page .entry-content table th,
+  #primary .post .entry-content table td,
+  #primary .page .entry-content table tbody .wte-fsd-row td:nth-child(2):before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #primary .post .entry-content table th,
+  #primary .page .entry-content table th,
+  #primary .post .entry-content table td,
+  #primary .page .entry-content table tbody .wte-fsd-row td:nth-child(3):before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #primary .post .entry-content table th,
+  #primary .page .entry-content table th,
+  #primary .post .entry-content table td,
+  #primary .page .entry-content table tbody .wte-fsd-row td:nth-child(4):before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #primary .post .entry-content table th,
+  #primary .page .entry-content table th,
+  #primary .post .entry-content table td,
+  #primary .page .entry-content table tbody .wte-fsd-row td:nth-child(5):before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #primary .post .entry-content table th,
+  #primary .page .entry-content table th,
+  #primary .post .entry-content table td,
+  #primary .page .entry-content table tbody .wte-fsd-row td:nth-child(6):before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  #primary .post .entry-content table th,
+  #primary .page .entry-content table th,
+  #primary .post .entry-content table td,
+  #primary .page .entry-content table tbody .wte-fsd-row td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right;
+    padding: 10px 5px;
+    width: 100%;
+  }
+
+  #primary .post .entry-content table thead,
+  #primary .page .entry-content table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+}
+
+.wte-user-input .wet-user-input-date select,
+.wte-user-input .wte-user-input-field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.wet-user-input-trip select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.wte-user-input .wet-user-input-date,
+.wte-user-input .wte-user-input-field {
+  position: relative;
+}
+
+.wte-user-input .wet-user-input-trip {
+  position: relative;
+}
+
+.entry-content #wte-fixed-departure-dates .wte-fsd-list-header .wte-user-input select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px 30px 8px 8px;
+}
+
+#wte-fixed-departure-dates .wte-user-input {
+  position: relative;
+}
+
+/* fixed trip[ starting dates fixes */
+
+.fixed-starting .select2-container .select2-choice {
+  height: 39px;
+  padding: 8px 0px 0 8px;
+}
+
+.select2-container .select2-choice div b {
+  margin-top: 5px;
+}
+
+/* button color fixes */
+#wte-trips-fixed-departure-dates .wte-user-input {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.wte-user-input .wte-user-input-field {
+  margin-right: 16px;
+  min-width: 260px;
+}
+
+/* .wte-user-input .wte-user-input-field:last-chi */
+
+.wte-user-input .wet-user-input-date select,
+.wte-user-input .wte-user-input-field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.wet-user-input-trip select,
+.wte-user-input-field select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+.wte-user-input .wet-user-input-date,
+.wte-user-input .wte-user-input-field {
+  position: relative;
+}
+
+.wte-user-input .wet-user-input-trip {
+  position: relative;
+}
+
+.wte-user-input .wte-user-input-field select {
+  width: 100%;
+  padding-right: 32px;
+  outline: none;
+}
+
+.entry-content #wte-fixed-departure-dates .wte-fsd-list-header .wte-user-input select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  padding: 8px 30px 8px 8px;
+}
+
+#wte-fixed-departure-dates .wte-user-input {
+  position: relative;
+}
+
+.wte-fsd-list-header .select2-container .select2-choice div {
+  display: none;
+}
+
+#wp-travel-trip-wrapper #wte-fixed-departure-dates .wte-fsd-list-header .wte-user-input {
+  border: 0;
+}
+
+.fixed-starting .select2-container .select2-choice {
+  padding: 8px 33px 5px 8px;
+  width: 191px;
+  background-image: none;
+  margin-left: 10px;
+}
+
+/* Settings for Advanced fsd table */
+.wpte-trips-fsd-table-wrapper thead td {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 18px;
+}
+
+.wpte-trips-fsd-table-wrapper tbody tr.wte-fsd-row-month td {
+  font-weight: bold;
+  height: 64px;
+}
+
+.date-select {
+  outline: none;
+}
+
+.dd-list table tbody td .book-btn {
+  text-decoration: none;
+}
+
+#nestable1 .dd-list table th,
+#nestable1 .dd-list table td {
+  font-size: 0.8em;
+  line-height: 1.313em;
+  padding: 15px 4px;
+}
+
+#tabs-container {
+  max-width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+  .wte-fsd-list-header {
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+  }
+
+  .fixed-starting .dd-list table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .fixed-starting .dd-list table tbody td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .fixed-starting .dd-list table tbody td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right !important;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .wpte-trips-fsd-table-wrapper table thead {
+    border: none;
+    clip: rect(0 0 0 0);
+    height: 1px;
+    margin: -1px;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    width: 1px;
+  }
+
+  .wpte-trips-fsd-table-wrapper table tbody td:before {
+    content: attr(data-label);
+    float: left;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  .wpte-trips-fsd-table-wrapper table tbody td {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    font-size: 0.8em;
+    text-align: right !important;
+  }
+}
+
+/* All FSD dates label fixes */
+
+#wte-trips-fixed-departure-dates .select2-container .select2-choice div {
+  display: none;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field select {
+  display: inline-block;
+  margin-left: 20px;
+  color: #999;
+  border: 1px solid #e5e5e5;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field select::placeholder {}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wet-user-input-date,
+.wte-user-input .wte-user-input-field {
+  display: -webkit-box;
+  display: -moz-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 24px;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input-field label {
+  width: 80px;
+  white-space: nowrap;
+}
+
+@media (min-width:768px) {
+  #wte-trips-fixed-departure-dates .wte-user-input-field label {
+    width: auto;
+  }
+}
+
+#wte-trips-fixed-departure-dates .select2-container-multi .select2-choices {
+  width: 204px;
+  margin-left: 20px;
+}
+
+.select2-container-multi .select2-choices {
+  border: 1px solid #e5e5e5;
+  background-image: none;
+}
+
+.select2-container-multi .select2-choices .select2-search-field {
+  border: 1px solid #e5e5e5;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field::after {
+  right: 10px;
+  left: unset;
+}
+
+#wte-trips-fixed-departure-dates .select2-container .select2-choice {
+  border: 1px solid #e5e5e5;
+  border-radius: 0px;
+  height: 43px;
+  padding: 7px 33px 5px 8px;
+}
+
+#wte-trips-fixed-departure-dates .select2-container .select2-choice span {
+  color: #666;
+}
+
+#wte-trips-fixed-departure-dates #s2id_wte-fsd-filter-month .select2-choices .select2-search-field::before {
+  content: none;
+}
+
+#wte-trips-fixed-departure-dates #s2id_wte-fsd-filter-month .select2-choices .select2-search-field::after {
+  content: none;
+}
+
+#wte-trips-fixed-departure-dates .select2-container-multi .select2-choices ul>li:after {
+  content: none;
+}
+
+#wte-trips-fixed-departure-dates .select2-container-multi .select2-choices .select2-search-choice {
+  padding: 10px 10px 9px 21px;
+  margin-right: 5px;
+  margin: 7px;
+}
+
+#wte-trips-fixed-departure-dates .select2-container-multi .select2-choices .select2-search-choice::before {
+  content: none;
+}
+
+#wte-trips-fixed-departure-dates .select2-container .select2-choices .select2-search-field {
+  padding-left: 0px;
+  margin: 0;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input-field .select2-container .select2-choices {
+  margin: 0;
+  overflow: hidden;
+  height: 24px !important;
+}
+
+#wte-trips-fixed-departure-dates .select2-container-multi .select2-choices .select2-search-choice::after {
+  content: none;
+}
+
+#wte-trips-fixed-departure-dates .select2-container-multi .select2-choices .select2-search-field {
+  border: 0;
+}
+
+#wte-trips-fixed-departure-dates .select2-results__options li {
+  margin: 0;
+}
+
+#wte-trips-fixed-departure-dates #wte-fsd-filter-year::after {
+  position: absolute;
+  top: 9px;
+  left: 230px;
+  width: 20px;
+  height: 29px;
+  line-height: 29px;
+  pointer-events: none;
+  content: "";
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238d8d8d' viewBox='0 0 320 512'%3E%3Cpath d='M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z'/%3E%3C/svg%3E") center center no-repeat;
+  background-size: 0.7em;
+}
+
+#wte-trips-fixed-departure-dates .wet-user-input-date::after {
+  position: absolute;
+  top: 9px;
+  left: 230px;
+  width: 20px;
+  height: 29px;
+  line-height: 29px;
+  pointer-events: none;
+  content: "";
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238d8d8d' viewBox='0 0 320 512'%3E%3Cpath d='M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z'/%3E%3C/svg%3E") center center no-repeat;
+  background-size: 0.7em;
+}
+
+#wte-trips-fixed-departure-dates.select2-container--default .select2-selection--multiple .select2-selection__clear {
+  margin-right: 27px;
+}
+
+#wte-trips-fixed-departure-dates .select2-container--default .select2-search--inline .select2-search__field {
+  width: 100% !important;
+}
+
+#wte-trips-fixed-departure-dates .select2-container--default .select2-selection--multiple {
+  border: 1px solid #e5e5e5;
+  border-radius: 0;
+  padding: 2px 0px;
+}
+
+#wte-trips-fixed-departure-dates .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #999;
+  margin-top: 10px;
+}
+
+#wte-trips-fixed-departure-dates .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 10px;
+}
+
+.select2-container .select2-selection--single {
+  height: 48px;
+  border-radius: 0px;
+}
+
+#wte-fixed-departure-dates .select2-container--default .select2-selection--single .select2-selection__rendered {
+  color: #999;
+  margin-top: 8px;
+}
+
+#wte-fixed-departure-dates .select2-container--default .select2-selection--single .select2-selection__arrow {
+  top: 10px;
+}
+
+.select2-selection__arrow {
+  display: none;
+}
+
+.select2-selection--single {
+  position: relative;
+}
+
+#wte-fixed-departure-dates .select2-selection--single::after {
+  position: absolute;
+  top: 8px;
+  right: 2px;
+  width: 20px;
+  height: 29px;
+  line-height: 29px;
+  pointer-events: none;
+  content: "";
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238d8d8d' viewBox='0 0 320 512'%3E%3Cpath d='M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z'/%3E%3C/svg%3E") center center no-repeat;
+  background-size: 0.7em;
+}
+
+#wte-trips-fixed-departure-dates .select2-selection--single::after {
+  position: absolute;
+  top: 10px;
+  right: 2px;
+  width: 20px;
+  height: 29px;
+  line-height: 29px;
+  pointer-events: none;
+  content: "";
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238d8d8d' viewBox='0 0 320 512'%3E%3Cpath d='M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z'/%3E%3C/svg%3E") center center no-repeat;
+  background-size: 0.7em;
+}
+
+#wte-fixed-departure-dates .select2-container--default .select2-selection--single .select2-selection__clear,
+.select2-container--default .select2-selection--single .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  right: 21px;
+  font-weight: bold;
+  position: absolute;
+}
+
+#wte-fixed-departure-dates .select2-container--default .select2-selection--single,
+#wte-trips-fixed-departure-dates .select2-container--default .select2-selection--single {
+  border: 1px solid #e5e5e5;
+}
+
+#wte-trips-fixed-departure-dates .select2-container--default .select2-selection--multiple .select2-selection__clear {
+  cursor: pointer;
+  float: right;
+  font-weight: bold;
+  margin-top: 5px;
+  margin-right: 23px;
+  padding: 1px;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-month .select2-selection__rendered li::before {
+  content: none;
+}
+
+#wte-trips-fixed-departure-dates .select2-selection__rendered {
+  margin: 0;
+}
+
+#wte-trips-fixed-departure-dates .select-8-selection--multiple .select2-selection__rendered {
+  height: 30px;
+}
+
+#wte-trips-fixed-departure-dates .select2-selection__rendered {
+  height: 30px;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-month .select2-selection__rendered li::after {
+  content: none;
+}
+
+#wte-fixed-departure-dates .wte-fsd-list-header .wte-user-input .date-select {
+  position: relative;
+}
+
+#wte-fixed-departure-dates .wte-fsd-list-header .wte-user-input select {
+  padding: 0px;
+}
+
+#wte-fixed-departure-dates .wte-fsd-list-header .wte-user-input .date-select::after {
+  position: absolute;
+  top: 4px;
+  right: 4px;
+  width: 20px;
+  height: 29px;
+  line-height: 29px;
+  pointer-events: none;
+  content: "";
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%238d8d8d' viewBox='0 0 320 512'%3E%3Cpath d='M151.5 347.8L3.5 201c-4.7-4.7-4.7-12.3 0-17l19.8-19.8c4.7-4.7 12.3-4.7 17 0L160 282.7l119.7-118.5c4.7-4.7 12.3-4.7 17 0l19.8 19.8c4.7 4.7 4.7 12.3 0 17l-148 146.8c-4.7 4.7-12.3 4.7-17 0z'/%3E%3C/svg%3E") center center no-repeat;
+  background-size: 0.7em;
+}
+
+#wte-trips-fixed-departure-dates li {
+  margin: 0;
+}
+
+#wte-trips-fixed-departure-dates .select2-results .select2-results__option {
+  margin: 0 !important;
+}
+
+@media only screen and (max-width: 1024px) {
+  #wte-trips-fixed-departure-dates .wte-user-input {
+    flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+  }
+}
+
+@media only screen and (max-width: 767px) {
+  #wte-trips-fixed-departure-dates .wte-user-input-month {
+    height: auto !important;
+  }
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-fields-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  align-items: center;
+  grid-gap: 15px;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field {
+  -ms-flex-preferred-size: 0;
+  flex-basis: 100%;
+  -webkit-box-flex: 1;
+  -ms-flex-positive: 1;
+  flex: 0 1 100%;
+  max-width: 100%;
+  flex-direction: column;
+  align-items: flex-start;
+  height: auto;
+  margin-right: 0;
+}
+
+#wte-trips-fixed-departure-dates .seats-available {
+  text-align: center;
+}
+
+#wte-trips-fixed-departure-dates .seats-available .guaranteed, #wte-trips-fixed-departure-dates .seats-available .available, #wte-trips-fixed-departure-dates .seats-available .limited {
+  font-size: 15px;
+  line-height: 1;
+  display: inline-block;
+  border-radius: 3px;
+  padding: 5px 13px;
+}
+
+#wte-trips-fixed-departure-dates .seats-available .guaranteed, #wte-trips-fixed-departure-dates .seats-available .available {
+  border: 1px solid rgba(0, 175, 135, .7);
+  color: #00B98B;
+}
+
+#wte-trips-fixed-departure-dates .seats-available .available {
+  background-color: rgba(0, 175, 135, .05);
+}
+
+#wte-trips-fixed-departure-dates .seats-available .limited {
+  border: 1px solid rgba(250, 196, 21, .15);
+  background-color: rgba(250, 196, 21, .08);
+
+}
+
+@media (min-width: 768px) {
+  #wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field {
+    flex-direction: unset;
+    max-width: 320px;
+    margin-right: 1rem;
+  }
+}
+
+@media (min-width: 576px) {
+  #wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field {
+    flex-basis: calc(50% - 16px);
+  }
+
+  #wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field:first-child {
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 992px) {
+  #wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field {
+    margin-right: 16px;
+    flex-basis: calc(33.3333% - 32px);
+  }
+
+  #wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field:nth-child(3n),
+  #wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field:last-child {
+    margin-right: 0;
+  }
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field select {
+  height: 50px;
+  width: 100%;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .wte-fsd-filter,
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .select2-search__field {
+  padding: 0;
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  line-height: 1.5;
+  width: 100%;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .select2-search__field {
+  padding-right: 52px;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .select2-search--inline {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  /* position: absolute; */
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field ul.select2-selection__rendered {
+  position: relative;
+  margin: 0;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  height: 45px;
+  padding-right: 36px;
+  /* position: relative; */
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .select2-selection__rendered {
+  font-size: 1rem;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .select2-selection__clear {
+  position: absolute;
+  left: 1px;
+  top: 1px;
+  bottom: 1px;
+  text-align: center;
+  margin: 0;
+  line-height: 50px;
+  background-color: #fff;
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 1) 60%,
+      rgba(255, 255, 255, 0) 100%);
+  width: 52px;
+  padding: 0 0.4em;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .select2-selection--multiple::after {
+  content: "";
+  position: absolute;
+  right: 1px;
+  top: 1px;
+  bottom: 1px;
+  width: 60px;
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 40%,
+      rgba(255, 255, 255, 1) 100%);
+  background: -webkit-linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 40%,
+      rgba(255, 255, 255, 1) 100%);
+  background: linear-gradient(90deg,
+      rgba(255, 255, 255, 0) 0%,
+      rgba(255, 255, 255, 1) 40%,
+      rgba(255, 255, 255, 1) 100%);
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field::after {
+  top: 40px;
+}
+
+#wte-trips-fixed-departure-dates .wte-user-input .wte-user-input-field .select2-selection__choice {
+  margin: 0;
+  padding: 0.375rem 0.75rem;
+  display: inline-block;
+  padding: 0.25em 0.4em;
+  font-size: 75%;
+  font-weight: 700;
+  line-height: 1;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: baseline;
+  border-radius: 0.25rem;
+}
+
+#wte-trips-fixed-departure-dates .wet-user-input-date::after {
+  background: none;
+}
+
+.wte-user-input-filter-icon {
+  flex-basis: 16px;
+}
+
+.wte-user-input .wte-user-input-filters-icon {
+  align-self: center;
+  margin-right: 2rem;
+  flex-grow: 1;
+}
+
+@media (min-width: 768px) {
+  .wte-user-input .wte-user-input-filters-icon {
+    flex-grow: 1;
+    font-size: 18px;
+    line-height: 1;
+  }
+}
+
+.wte-user-input .wte-user-input-filters-icon svg {
+  height: 18px;
+  width: 18px;
+}
+
+.wte-fsd-list-booknow-btn:disabled {
+  opacity: .5;
+}
+
+.wte-fsd-frontend-holder-dd .accordion-sdate svg,
+.wte-fsd-frontend-holder-dd .accordion-cost svg,
+.wte-fsd-frontend-holder-dd .accordion-seats svg {
+  width: 1em;
+  height: auto;
+}
